@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://docs.inboundnow.com/sitemap.xml

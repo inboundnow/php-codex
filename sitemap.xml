@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://docs.inboundnow.com/index.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Automation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Automation.Actions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Automation.Admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Automation.Core.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-CTA.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-CTA.Admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-CTA.Core.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-CTA.Extensions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-CTA.Templates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-InboundPro.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-InboundPro.Admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-InboundPro.Core.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-InboundPro.Cron.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Inbouns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Inbouns.Extensions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Inbouns.Global.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Inbouns.Templates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Landing.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Landing.Admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Landing.Admin.Welcome.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Leads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Leads.Admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Leads.Classes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Leads.Classes.Leads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Leads.Inbound.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Mailer.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Mailer.Admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Mailer.Core.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-Mailer.Templates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/package-None.html</loc>
+</url>
+
+
+<url>
+	<loc>http://docs.inboundnow.com/class-acf.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_admin_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_admin_field_groups.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_admin_update.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_admin_update_network.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_ajax.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_cache.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_compatibility.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_checkbox.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_clone.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_color_picker.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_date_and_time_picker.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_date_picker.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_email.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_file.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_flexible_content.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_gallery.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_google_map.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_image.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_message.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_number.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_oembed.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_page_link.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_password.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_post_object.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_radio.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_relationship.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_repeater.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_select.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_tab.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_taxonomy.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_text.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_textarea.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_time_picker.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_true_false.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_url.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_user.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_field_wysiwyg.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_form_attachment.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_form_comment.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_form_post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_form_taxonomy.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_form_user.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_form_widget.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_input.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_json.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_local.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_location.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_loop.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_media.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_pro.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_pro_options_page.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_pro_updates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_revisions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_settings_addons.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_settings_info.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_settings_tools.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_settings_updates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_taxonomy_field_walker.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_third_party.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_updates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_validation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-acf_wpml_compatibility.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Activation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Activation_Update_Routines.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Admin_Notices.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Ajax_Listeners.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Clone_Post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Conversion_Tracking.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Dynamic_Widget.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Enqueues.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Load_Extensions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Menus.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Metaboxes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Metaboxes_Global.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Post_Type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Render.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Static_Widget.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Template_Manager.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Template_Manager_List.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_Variations.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_WordPress_Leads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-CTA_WordPress_SEO.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Ajax.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Akismet.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Analytics.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_API.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_API_Keys_Generation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_API_Keys_Table.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_API_Wrapper.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Asset_Loader.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Action_Add_Remove_List.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Action_Add_Remove_Tag.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Action_Create_Lead.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Action_Kill_Tasks.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Action_Relay_Data.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Action_Send_Email.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Action_Wait.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Activation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Activation_Update_Routines.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Adminbar.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Lead_Profile.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Loader.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Plugin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Post_Type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Processing.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Query_Lead.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Query_User.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Trigger_inbound_double_optin_confirm.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Trigger_inbound_store_lead_post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Trigger_Publish_Post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Trigger_Set_Object_Terms.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Trigger_Update_Lead.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Automation_Trigger_User_Register.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Calls_To_Action_Plugin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Confirm_Double_Optin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Cron.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Customizer.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Debug_Scripts.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Email_Meta.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Email_Preview.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Email_Template_Shortcodes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Event_Report.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Events.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Events_Report.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Extension_Loads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Feedback.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Forms.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Funnel_Reporting.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Impressions_Report.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Landing_Pages_Plugin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Lead_Statuses.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Leads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Leads_Custom_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Leads_Plugin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_License.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_List_Double_Optin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Load_Shared.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Logging_Automation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Login.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mail_Daemon.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_ACF.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Activation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Activation_Update_Routines.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Ajax_Listeners.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Clone_Post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Common_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Customizer.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Direct_Email_Leads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Enqueues.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Forms_Integration.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Load_Templates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Menus.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Metaboxes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Notifications.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Plugin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Post_Type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Scheduling.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_SparkPost.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Stats_Report.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Template_Manager.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Template_Manager_List.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Tokens.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Tracking.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Unsubscribe.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_Variations.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Mailer_WordPress_SEO.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Maintenance_Lists.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Marketing_Button.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Menus_Admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Menus_Adminbar.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Metaboxes_Automation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Metaboxes_Leads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Notifications.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Now_Store.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Options_API.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Pro_Activation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Pro_Admin_Ajax_Listeners.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Pro_Automatic_Updates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Pro_Downloads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Pro_Notifications.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Pro_Oauth_Engine.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Pro_Plugin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Pro_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Quick_View.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Reporting_Templates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Search_And_Comment_Report.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Shared_ACF_BootStrap.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Shortcodes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Shortcodes_Cookies.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Shortcodes_Fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_SparkPost.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_SparkPost_Stats.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Template_Utils.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Templating_Engine.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Tracking.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Translation_Updater.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Updater.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Upgrade_For_More_Reports.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Upgrade_Routines.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Visitor_Event_Report.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Visitor_Impressions_Report.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Inbound_Visitors_Report.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-INBOUNDNOW_EXTEND.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_ACF.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Activation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Activation_Update_Routines.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Admin_Menus.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Admin_Notices.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Click_Tracking.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Install.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Load_Extensions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Meta.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Metaboxes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Post_Type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Row_Actions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Sidebars.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Stats.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Template_Management.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Template_Switcher.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Templates_List_Table.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Landing_Pages_Variations.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-LandingPages_Welcome.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Activation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Activation_Update_Routines.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Admin_Notices.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Batch_Processor.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Branching.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Dashboard.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Field_Map.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Manager.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Post_Type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_Tracking.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-Leads_User_Profile.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-LeadStorage.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-LP_EXTENSION_LICENSENING.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-LP_EXTENSION_UPDATER.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-LP_Variation_Rotation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/class-LP_Widget_Conversion_Area.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_form_pre_save_post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_form_register_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_form_validate_save_post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_get_field_by_id.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_get_field_by_key.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_get_field_by_name.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_get_field_group_by_id.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_get_field_group_by_key.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_orderby_post_type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_query_remove_post_type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_settings_slug.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_acf_settings_uploader.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_migrate_field_500.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-_migrate_field_group_500.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_add_admin_notice.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_add_local_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_add_local_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_add_loop.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_add_options_page.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_add_options_sub_page.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_add_validation_error.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_append_setting.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_clone_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_convert_date_to_js.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_convert_date_to_php.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_convert_time_to_js.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_convert_time_to_php.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_copy_postmeta.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_count_local_field_groups.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_count_local_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_current_user_can_admin.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_debug.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_debug_end.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_debug_start.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_decode_choices.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_decode_taxonomy_term.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_decode_taxonomy_terms.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_delete_cache.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_delete_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_delete_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_delete_json_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_delete_metadata.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_delete_value.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_disable_filter.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_disable_filters.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_disable_local.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_doing.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_duplicate_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_duplicate_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_duplicate_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_enable_filter.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_enable_filters.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_enable_local.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_encode_choices.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_enqueue_scripts.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_enqueue_uploader.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_esc_attr.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_esc_attr_e.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_extract_var.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_extract_vars.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_field_type_exists.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_filter_field_groups.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_filter_post_id.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_form.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_form_data.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_form_head.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_format_date.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_format_filesize.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_format_value.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_admin_notices.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_array.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_attachment.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_browser.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_cache.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_compatibility.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_current_url.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_dir.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_ancestors.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_count.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_group_style.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_group_visibility.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_groups.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_id.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_label.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_reference.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_type_label.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_field_types.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_fields_by_id.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_filesize.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_form_data.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_grouped_posts.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_grouped_users.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_hidden_input.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_image_size.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_image_sizes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_local_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_local_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_local_field_groups.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_local_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_loop.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_metadata.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_numeric.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_options_page.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_options_pages.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_path.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_post_id_info.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_post_thumbnail.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_post_title.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_post_type_label.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_post_types.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_posts.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_pretty_post_types.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_pretty_taxonomies.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_pretty_user_roles.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_remote_plugin_info.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_setting.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_sites.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_sub_array.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_sub_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_taxonomies.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_taxonomy_terms.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_term_title.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_truncated.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_updates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_user_setting.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_valid_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_valid_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_valid_options_page.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_valid_post_id.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_valid_terms.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_validation_errors.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_value.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_view.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_get_wporg_remote_plugin_info.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_has_done.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_have_local_field_groups.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_have_local_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_hidden_input.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_import_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_in_array.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_include.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_ajax.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_array.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_doing.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_empty.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_field_group_key.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_field_key.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_filter_enabled.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_local_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_local_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_plugin_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_row_collapsed.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_screen.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_is_sub_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_isset_cache.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_json_encode.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_local.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_log.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_maybe_add_action.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_maybe_get.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_maybe_get_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_merge_atts.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_order_by_search.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_parse_args.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_parse_type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_parse_types.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_prepare_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_prepare_field_for_export.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_prepare_field_for_import.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_prepare_field_group_for_export.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_prepare_fields_for_export.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_prepare_fields_for_import.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_pro_get_license.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_pro_get_remote_info.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_pro_get_remote_response.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_pro_get_remote_url.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_pro_get_view.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_pro_is_license_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_pro_is_update_available.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_pro_update_license.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_refresh_plugin_updates_transient.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_register_field_type.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_remove_local_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_remove_local_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_remove_local_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_remove_loop.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_render_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_render_field_setting.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_render_field_wrap.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_render_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_reset_local.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_reset_validation_errors.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_save_post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_send_ajax_results.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_set_cache.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_set_cache_reference.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_set_form_data.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_set_options_page_capability.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_set_options_page_menu.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_set_options_page_title.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_shortcode.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_split_date_time.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_str_exists.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_str_replace.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_the_field_label.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_translate.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_translate_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_translate_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_trash_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_trash_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_untrash_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_untrash_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_field_group_wp_unique_post_slug.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_field_wp_unique_post_slug.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_loop.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_metadata.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_nested_array.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_option.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_options_page.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_setting.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_user_setting.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_update_value.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_upload_file.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_upload_files.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_validate_attachment.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_validate_save_post.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_validate_value.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_verify_ajax.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_verify_nonce.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-acf_write_json_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-add_row.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-ajax_disable_plugins.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-create_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-cta_check_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-cta_example_template_function.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-cta_load_dynamic_widget.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-CTA_Load_Extensions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-cta_load_static_widget.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-CTA_Render.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-delete_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-delete_row.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-delete_sub_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-enqueue_landing_page_scripts.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_field_object.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_field_objects.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_row.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_row_index.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_row_layout.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_row_sub_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_row_sub_value.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_sub_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-get_sub_field_object.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-has_sub_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-has_sub_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-have_rows.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-Hex_2_RGB.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_add_conversion_to_lead.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_automation_check_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_automation_load_definitions.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_automation_metaboxes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_automation_processing.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_color.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_color_scheme.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_confirm_email_service_provider.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_email_kill_ie8.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_email_load_templates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_form_add_lead_list.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_form_auto_publish.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_form_delete_transient.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_form_get_data.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_form_save.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_forms_change_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_forms_cpt.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_forms_custom_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_forms_default_content.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_get_form_names.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_get_parent_directory.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_Hex_2_RGB.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_inbound_email_example_template_function.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_load_lead_manager.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_load_token_engine.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_mailer_acf_integration.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-Inbound_Mailer_Common_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-Inbound_Mailer_Load_Templates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_qtrans_disable.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_record_log.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_register_form_role_capabilities.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_alert.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_callout.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_content_box.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_divider.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_empty_paragraph_fix.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_four_fifth_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_full_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_gmap.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_icon.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_intro.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_landing_pages.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_leadp.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_list_icons.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_one_fifth_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_one_fourth_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_one_half_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_one_third_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_portfolio.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_pricing.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_profile.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_social_links.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_tabs.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_teaser.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_testimonial.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_three_fifth_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_three_fourth_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_two_fifth_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_two_third_columns.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_shortcode_video.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_store_lead.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_template_brightness.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_template_color.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-Inbound_Templating_Engine.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inbound_travis_check.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-inboundnow_add_master_license.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-json_encode_fallback.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-landingpage_fix_known_wp_title_isses.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-landingpages_is_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_CTA_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_CTA_Template_Manager.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_Inbound_API_Keys_Generation.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_Inbound_Lead_Statuses.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_Inbound_Leads_Custom_fields.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_inbound_mail_daemon.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_Inbound_Mailer_Settings.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_Inbound_Mailer_Template_Manager.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-load_Inbound_Pro_Downloads.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_ab_testing_get_current_variation_id.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_add_option.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_body_class.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_check_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_content_area.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_conversion_area.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_discover_important_wrappers.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_footer.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_generate_drowndown.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_get_parent_directory.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_get_value.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_global_config.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_head.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_in_admin_header.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_init.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_list_feature.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_load_widgets.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_main_headline.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_manage_templates.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_move_template_files.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_rebuild_attributes.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-lp_templates_upload.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-mailer_check_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-register_field_group.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-register_options_page.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-render_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-reset_rows.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-reset_the_repeater_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-the_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-the_flexible_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-the_repeater_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-the_row.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-the_row_index.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-the_sub_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-update_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-update_row.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-update_sub_field.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-wp_cta_check_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-wp_cta_kill_ie8.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-wp_cta_load_calls_to_action.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-wp_leads_get_page_final_id.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-wpl_url_to_postid.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-wpleads_add_lead_to_list.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-wpleads_check_active.html</loc>
+</url>
+<url>
+	<loc>http://docs.inboundnow.com/function-wpleads_get_lead_lists_as_array.html</loc>
+</url>
+</urlset>
