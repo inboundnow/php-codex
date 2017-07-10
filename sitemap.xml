@@ -4,10 +4,16 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/index.html</loc>
 </url>
 <url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-ACF.html</loc>
+</url>
+<url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Actions.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Activation.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Admin.html</loc>
@@ -16,7 +22,16 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Core.html</loc>
 </url>
 <url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Queries.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Triggers.html</loc>
+</url>
+<url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-CTA.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-CTA.Activation.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-CTA.Admin.html</loc>
@@ -40,37 +55,61 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Cron.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Inbouns.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Inbouns.Extensions.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Activation.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Landing.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.DataInterfaces.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Landing.Pages.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Management.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Landing.Pages.Admin.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Menus.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.NeedsAttention.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Notices.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Sidebars.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Templates.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Tracking.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.WelcomeScreen.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Widgets.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.html</loc>
 </url>
 <url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Activation.html</loc>
+</url>
+<url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Admin.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Classes.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Core.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Classes.Leads.html</loc>
-</url>
-<url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Inbound.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Integrations.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Activation.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Admin.html</loc>
@@ -79,10 +118,46 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Core.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Templates.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-None.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-None.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.APIs.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.AssetFolderLoader.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.DatabaseRoutines.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.DebugTricks.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.DoubleOptin.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.EventManagement.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.FieldMapping.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.InboundForms.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.LeadSorage.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.StandAloneLicensing.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.Tracking.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.VisualEditor.html</loc>
 </url>
 
 
@@ -277,9 +352,6 @@
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/class-Inbound_Extension_Loads.html</loc>
-</url>
-<url>
-	<loc>https://inboundnow.github.io/PHP-Codex/class-Inbound_Feedback.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/class-Inbound_Forms.html</loc>
@@ -529,9 +601,6 @@
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/class-Landing_Pages_Admin_Notices.html</loc>
-</url>
-<url>
-	<loc>https://inboundnow.github.io/PHP-Codex/class-Landing_Pages_Click_Tracking.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/class-Landing_Pages_Install.html</loc>
