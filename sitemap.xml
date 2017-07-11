@@ -16,13 +16,16 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Activation.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Admin.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.LeadProfile.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Core.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Menus.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Queries.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Rules.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Automation.Triggers.html</loc>
@@ -53,6 +56,12 @@
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Cron.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.DataInterface.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Updates.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.html</loc>
@@ -115,7 +124,49 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Admin.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Core.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.ClickTracking.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.DataInterface.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.InboundForms.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Leads.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Management.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Notifications.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Scheduling.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Sending.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Settings.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.ShortcodesAndTokens.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.SparkPost.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Templates.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Unsubscribes.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.Variations.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.YoastSEO.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-None.html</loc>
@@ -127,7 +178,7 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.APIs.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.AssetFolderLoader.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.CPT.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.DatabaseRoutines.html</loc>
@@ -151,6 +202,21 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.LeadSorage.html</loc>
 </url>
 <url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.MarketingButton.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.Menus.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.Notifications.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.Shortcodes.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.ShortcodesAndTokens.html</loc>
+</url>
+<url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.StandAloneLicensing.html</loc>
 </url>
 <url>
@@ -158,6 +224,9 @@
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Shared.VisualEditor.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-xDepreciated.html</loc>
 </url>
 
 
