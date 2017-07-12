@@ -88,10 +88,13 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Admin.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Activation.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Core.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.AdminAJAX.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.AutoLoading.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Cron.html</loc>
@@ -100,7 +103,52 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.DataInterface.html</loc>
 </url>
 <url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.FieldMapping.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Funnels.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.InboundAnalytics.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.InboundNowAPI.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Installer.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.LeadStatuses.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Menus.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Notifications.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Ouath.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Reports.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Settings.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Tracking.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Translations.html</loc>
+</url>
+<url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Updates.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Landing.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Landing.Variations.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.html</loc>
@@ -145,13 +193,34 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Activation.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Admin.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Akismet.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Core.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.BranchControl.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Integrations.html</loc>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.BulkActions.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Dashboard.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Management.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Notifications.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Settings.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.Tracking.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.UserProfile.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-Leads.WPLogin.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-Mailer.html</loc>
