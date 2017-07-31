@@ -647,6 +647,7 @@
 				<li><a href="class-Inbound_Automation_Query_User.html">Inbound_Automation_Query_User</a></li>
 				<li><a href="class-Inbound_Automation_Trigger_inbound_double_optin_confirm.html">Inbound_Automation_Trigger_inbound_double_optin_confirm</a></li>
 				<li><a href="class-Inbound_Automation_Trigger_inbound_store_lead_post.html">Inbound_Automation_Trigger_inbound_store_lead_post</a></li>
+				<li><a href="class-Inbound_Automation_Trigger_inbound_track_link.html">Inbound_Automation_Trigger_inbound_track_link</a></li>
 				<li><a href="class-Inbound_Automation_Trigger_Publish_Post.html">Inbound_Automation_Trigger_Publish_Post</a></li>
 				<li><a href="class-Inbound_Automation_Trigger_Set_Object_Terms.html">Inbound_Automation_Trigger_Set_Object_Terms</a></li>
 				<li><a href="class-Inbound_Automation_Trigger_Update_Lead.html">Inbound_Automation_Trigger_Update_Lead</a></li>
@@ -1080,13 +1081,13 @@
 </span><span id="145" class="l">        <span class="php-var">$lead_page_view_tracking</span> = ( <span class="php-keyword1">isset</span>( <span class="php-var">$inbound_settings</span>[<span class="php-quote">'inbound-analytics-rules'</span>][<span class="php-quote">'page-tracking'</span>]) &amp;&amp; <span class="php-var">$inbound_settings</span>[<span class="php-quote">'inbound-analytics-rules'</span>][<span class="php-quote">'page-tracking'</span>] == <span class="php-quote">'off'</span> ) ? <span class="php-keyword1">false</span> : <span class="php-keyword1">true</span>;
 </span><span id="146" class="l">        <span class="php-var">$lead_search_tracking</span> = self::get_lead_setting( <span class="php-quote">'wpl-main-search-tracking'</span>, <span class="php-num">1</span>);
 </span><span id="147" class="l">        <span class="php-var">$lead_comment_tracking</span> = self::get_lead_setting( <span class="php-quote">'wpl-main-comment-tracking'</span>, <span class="php-num">1</span>);
-</span><span id="148" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$lead_search_tracking</span>) {
+</span><span id="148" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$lead_search_tracking</span> || !<span class="php-keyword2">class_exists</span>( <span class="php-quote">'Inbound_Leads_Plugin'</span> ) ) {
 </span><span id="149" class="l">            <span class="php-var">$search_tracking</span> = <span class="php-quote">'off'</span>;
 </span><span id="150" class="l">        }
-</span><span id="151" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$lead_comment_tracking</span>) {
+</span><span id="151" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$lead_comment_tracking</span> || !<span class="php-keyword2">class_exists</span>( <span class="php-quote">'Inbound_Leads_Plugin'</span> ) ) {
 </span><span id="152" class="l">            <span class="php-var">$comment_tracking</span> = <span class="php-quote">'off'</span>;
 </span><span id="153" class="l">        }
-</span><span id="154" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$lead_page_view_tracking</span> || <span class="php-keyword1">isset</span>(<span class="php-var">$_GET</span>[<span class="php-quote">'inbound-do-not-track'</span>]) ) {
+</span><span id="154" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$lead_page_view_tracking</span> || <span class="php-keyword1">isset</span>(<span class="php-var">$_GET</span>[<span class="php-quote">'inbound-do-not-track'</span>]) || !<span class="php-keyword2">class_exists</span>( <span class="php-quote">'Inbound_Leads_Plugin'</span> )  ) {
 </span><span id="155" class="l">            <span class="php-var">$page_tracking</span> = <span class="php-quote">'off'</span>;
 </span><span id="156" class="l">        }
 </span><span id="157" class="l">
@@ -1160,6 +1161,6 @@
 </div>
 </div>
 <script src="resources/combined.js?fa4df769e93505d23ea382fef9a6efc025e831a9"></script>
-<script src="elementlist.js?3e1bb7e1900ad2b05b9c303dbd4b49c0bb3d1e6c"></script>
+<script src="elementlist.js?1a493d734d12838f2c975e2fd3c8e7637e05f4b9"></script>
 </body>
 </html>
