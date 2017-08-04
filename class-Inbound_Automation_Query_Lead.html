@@ -655,7 +655,7 @@
 		
 		<b>Package:</b> <a href="package-Automation.html">Automation</a>\<a href="package-Automation.Queries.html">Queries</a><br>
 
-			<b>Located at</b> <a href="source-class-Inbound_Automation_Query_Lead.html#17-104" title="Go to source code">core/automation/definitions/query.lead_data.php</a>
+			<b>Located at</b> <a href="source-class-Inbound_Automation_Query_Lead.html#17-228" title="Go to source code">core/automation/definitions/query.lead_data.php</a>
 		<br>
 	</div>
 
@@ -675,14 +675,14 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_get_key_map">#</a>
-		<code><a href="source-class-Inbound_Automation_Query_Lead.html#19-29" title="Go to source code">get_key_map</a>( )</code>
+		<code><a href="source-class-Inbound_Automation_Query_Lead.html#19-33" title="Go to source code">get_key_map</a>( )</code>
 
 		<div class="description short">
-			<p>Build Query Loopup Dataset</p>
+			<p>Build Query Loopup Dataset. Keys in th queries array should also have a corresponding method inside of this class prefixed with the query_ namespace.</p>
 		</div>
 
 		<div class="description detailed hidden">
-			<p>Build Query Loopup Dataset</p>
+			<p>Build Query Loopup Dataset. Keys in th queries array should also have a corresponding method inside of this class prefixed with the query_ namespace.</p>
 
 
 
@@ -693,29 +693,40 @@
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="query_page_views" id="_query_page_views">
+	<tr data-order="query_page_view_count" id="_query_page_view_count">
 
 		<td class="attributes"><code>
 			 public static
 
-			
+			INT
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_query_page_views">#</a>
-		<code><a href="source-class-Inbound_Automation_Query_Lead.html#38-54" title="Go to source code">query_page_views</a>( <span> <var>$argument_id</var></span>, <span> <var>$arguments</var></span> )</code>
+		<a class="anchor" href="#_query_page_view_count">#</a>
+		<code><a href="source-class-Inbound_Automation_Query_Lead.html#37-58" title="Go to source code">query_page_view_count</a>( <span>ARRAY <var>$filter</var></span>, <span> <var>$arguments</var></span> )</code>
 
 		<div class="description short">
-			
+			<p>Look up how many email links the user has clicked</p>
 		</div>
 
 		<div class="description detailed hidden">
-			
+			<p>Look up how many email links the user has clicked</p>
 
 
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filter</var></dt>
+					<dd>$trigger_data dataset of arguments sent over by trigger. One of the arguments must contain key 'lead_id'</dd>
+					<dt><var>$arguments</var></dt>
+					<dd></dd>
+				</dl></div>
 
+				<h4>Returns</h4>
+				<div class="list">
+					INT
+				</div>
 
 
 
@@ -723,29 +734,40 @@
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="query_conversions" id="_query_conversions">
+	<tr data-order="query_email_click_count" id="_query_email_click_count">
 
 		<td class="attributes"><code>
 			 public static
 
-			
+			INT
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_query_conversions">#</a>
-		<code><a href="source-class-Inbound_Automation_Query_Lead.html#61-76" title="Go to source code">query_conversions</a>( <span> <var>$argument_id</var></span>, <span> <var>$arguments</var></span> )</code>
+		<a class="anchor" href="#_query_email_click_count">#</a>
+		<code><a href="source-class-Inbound_Automation_Query_Lead.html#60-82" title="Go to source code">query_email_click_count</a>( <span>arguments <var>$filter</var></span>, <span> <var>$arguments</var></span> )</code>
 
 		<div class="description short">
-			
+			<p>Look up how many forms the user has submissed</p>
 		</div>
 
 		<div class="description detailed hidden">
-			
+			<p>Look up how many forms the user has submissed</p>
 
 
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filter</var></dt>
+					<dd>of arguments sent over by trigger. One of the arguments must contain key 'lead_id'</dd>
+					<dt><var>$arguments</var></dt>
+					<dd></dd>
+				</dl></div>
 
+				<h4>Returns</h4>
+				<div class="list">
+					INT
+				</div>
 
 
 
@@ -753,29 +775,204 @@
 		</div>
 		</div></td>
 	</tr>
-	<tr data-order="query_conversion_rate" id="_query_conversion_rate">
+	<tr data-order="query_email_open_count" id="_query_email_open_count">
 
 		<td class="attributes"><code>
 			 public static
 
-			
+			INT
 			
 			</code>
 		</td>
 
 		<td class="name"><div>
-		<a class="anchor" href="#_query_conversion_rate">#</a>
-		<code><a href="source-class-Inbound_Automation_Query_Lead.html#83-102" title="Go to source code">query_conversion_rate</a>( <span> <var>$argument_id</var></span>, <span> <var>$arguments</var></span> )</code>
+		<a class="anchor" href="#_query_email_open_count">#</a>
+		<code><a href="source-class-Inbound_Automation_Query_Lead.html#84-106" title="Go to source code">query_email_open_count</a>( <span>lead_data <var>$filter</var></span>, <span> <var>$arguments</var></span> )</code>
 
 		<div class="description short">
-			
+			<p>Look up how many emails the lead has opened</p>
 		</div>
 
 		<div class="description detailed hidden">
+			<p>Look up how many emails the lead has opened</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filter</var></dt>
+					<dd>of arguments sent over by trigger. One of the arguments must contain key 'lead_id'</dd>
+					<dt><var>$arguments</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					INT
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="query_form_submissions_count" id="_query_form_submissions_count">
+
+		<td class="attributes"><code>
+			 public static
+
+			INT
 			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_query_form_submissions_count">#</a>
+		<code><a href="source-class-Inbound_Automation_Query_Lead.html#108-130" title="Go to source code">query_form_submissions_count</a>( <span>lead_data <var>$filter</var></span>, <span> <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			<p>Look up how many emails the lead has opened</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Look up how many emails the lead has opened</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filter</var></dt>
+					<dd>of arguments sent over by trigger. One of the arguments must contain key 'lead_id'</dd>
+					<dt><var>$arguments</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					INT
+				</div>
 
 
 
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="query_viewed_page_id" id="_query_viewed_page_id">
+
+		<td class="attributes"><code>
+			 public static
+
+			INT
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_query_viewed_page_id">#</a>
+		<code><a href="source-class-Inbound_Automation_Query_Lead.html#132-169" title="Go to source code">query_viewed_page_id</a>( <span>lead_data <var>$filter</var></span>, <span> <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			<p>Lookup if lead has viewed a specific page or not</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Lookup if lead has viewed a specific page or not</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filter</var></dt>
+					<dd>of arguments sent over by trigger. One of the arguments must contain key 'lead_id'</dd>
+					<dt><var>$arguments</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					INT
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="query_opened_email_id" id="_query_opened_email_id">
+
+		<td class="attributes"><code>
+			 public static
+
+			INT
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_query_opened_email_id">#</a>
+		<code><a href="source-class-Inbound_Automation_Query_Lead.html#171-197" title="Go to source code">query_opened_email_id</a>( <span>tracked_data <var>$filter</var></span>, <span> <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			<p>Lookup if lead has opened a specific email</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Lookup if lead has opened a specific email</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filter</var></dt>
+					<dd>of arguments sent over by trigger. One of the arguments must contain key 'lead_id'</dd>
+					<dt><var>$arguments</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					INT
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="query_clicked_cta_id" id="_query_clicked_cta_id">
+
+		<td class="attributes"><code>
+			 public static
+
+			INT
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_query_clicked_cta_id">#</a>
+		<code><a href="source-class-Inbound_Automation_Query_Lead.html#200-226" title="Go to source code">query_clicked_cta_id</a>( <span>tracked_data <var>$filter</var></span>, <span> <var>$arguments</var></span> )</code>
+
+		<div class="description short">
+			<p>Lookup if lead has opened a specific email</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Lookup if lead has opened a specific email</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$filter</var></dt>
+					<dd>of arguments sent over by trigger. One of the arguments must contain key 'lead_id'</dd>
+					<dt><var>$arguments</var></dt>
+					<dd></dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					INT
+				</div>
 
 
 

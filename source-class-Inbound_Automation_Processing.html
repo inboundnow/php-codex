@@ -1321,7 +1321,7 @@
 </span><span id="385" class="l">        <span class="php-var">$class_name</span> = <span class="php-var">$db_lookup_filter</span>[<span class="php-quote">'class_name'</span>];
 </span><span id="386" class="l">        <span class="php-var">$function_name</span> = <span class="php-quote">'query_'</span> . <span class="php-var">$filter</span>[<span class="php-quote">'action_filter_key'</span>] ;
 </span><span id="387" class="l">
-</span><span id="388" class="l">        <span class="php-var">$db_lookup</span> = <span class="php-var">$class_name</span>::<span class="php-var">$function_name</span>(  <span class="php-var">$db_lookup_filter</span>[<span class="php-quote">'id'</span>] , self::<span class="php-var">$job_trigger_data</span> );
+</span><span id="388" class="l">        <span class="php-var">$db_lookup</span> = <span class="php-var">$class_name</span>::<span class="php-var">$function_name</span>(  <span class="php-var">$filter</span> , self::<span class="php-var">$job_trigger_data</span> );
 </span><span id="389" class="l">
 </span><span id="390" class="l">        <span class="php-keyword1">if</span> ( <span class="php-var">$db_lookup</span>===<span class="php-keyword1">null</span> ) {
 </span><span id="391" class="l">

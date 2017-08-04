@@ -1741,7 +1741,7 @@
 </span><span id="805" class="l">
 </span><span id="806" class="l">            <span class="php-var">$cats</span> = <span class="php-keyword2">explode</span>(<span class="php-quote">','</span>, <span class="php-var">$data</span>[<span class="php-quote">'info'</span>][<span class="php-quote">'category'</span>]);
 </span><span id="807" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$cats</span> <span class="php-keyword1">as</span> <span class="php-var">$key</span> =&gt; <span class="php-var">$cat</span>) {
-</span><span id="808" class="l">                <span class="php-var">$cat</span> = <span class="php-keyword2">trim</span>(<span class="php-var">$cat</span>);
+</span><span id="808" class="l">                <span class="php-var">$cat</span> = (<span class="php-var">$cat</span>) ? <span class="php-keyword2">trim</span>(<span class="php-var">$cat</span>) : <span class="php-quote">''</span>;
 </span><span id="809" class="l">                <span class="php-var">$cat</span> = <span class="php-keyword2">str_replace</span>(<span class="php-quote">' '</span>, <span class="php-quote">'-'</span>, <span class="php-var">$cat</span>);
 </span><span id="810" class="l">                <span class="php-var">$cats</span>[<span class="php-var">$key</span>] = <span class="php-keyword2">trim</span>(<span class="php-keyword2">strtolower</span>(<span class="php-var">$cat</span>));
 </span><span id="811" class="l">            }
