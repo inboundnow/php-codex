@@ -147,6 +147,11 @@
 
 						</li>
 				<li>
+					<a href="package-CTA.Tracking.html">
+						Tracking					</a>
+
+						</li>
+				<li>
 					<a href="package-CTA.Variations.html">
 						Variations					</a>
 
@@ -599,19 +604,12 @@
 			<h3>Classes</h3>
 			<ul>
 				<li class="active"><a href="class-CTA_Conversion_Tracking.html">CTA_Conversion_Tracking</a></li>
-				<li><a href="class-CTA_Dynamic_Widget.html">CTA_Dynamic_Widget</a></li>
-				<li><a href="class-CTA_Static_Widget.html">CTA_Static_Widget</a></li>
 			</ul>
 
 
 
 
 
-			<h3>Functions</h3>
-			<ul>
-				<li><a href="function-cta_load_dynamic_widget.html">cta_load_dynamic_widget</a></li>
-				<li><a href="function-cta_load_static_widget.html">cta_load_static_widget</a></li>
-			</ul>
 		</div>
 	</div>
 </div>
@@ -662,9 +660,9 @@
 		
 		
 		
-		<b>Package:</b> <a href="package-CTA.html">CTA</a>\<a href="package-CTA.Core.html">Core</a><br>
+		<b>Package:</b> <a href="package-CTA.html">CTA</a>\<a href="package-CTA.Tracking.html">Tracking</a><br>
 
-			<b>Located at</b> <a href="source-class-CTA_Conversion_Tracking.html#5-117" title="Go to source code">core/cta/classes/class.tracking.php</a>
+			<b>Located at</b> <a href="source-class-CTA_Conversion_Tracking.html#5-183" title="Go to source code">core/cta/classes/class.tracking.php</a>
 		<br>
 	</div>
 
@@ -714,7 +712,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_load_hooks">#</a>
-		<code><a href="source-class-CTA_Conversion_Tracking.html#20-28" title="Go to source code">load_hooks</a>( )</code>
+		<code><a href="source-class-CTA_Conversion_Tracking.html#20-37" title="Go to source code">load_hooks</a>( )</code>
 
 		<div class="description short">
 			
@@ -744,7 +742,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_track_cta_link">#</a>
-		<code><a href="source-class-CTA_Conversion_Tracking.html#30-53" title="Go to source code">track_cta_link</a>( <span> <var>$args</var></span> )</code>
+		<code><a href="source-class-CTA_Conversion_Tracking.html#39-62" title="Go to source code">track_cta_link</a>( <span> <var>$args</var></span> )</code>
 
 		<div class="description short">
 			<p>Listens for tracked masked link processing</p>
@@ -774,7 +772,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_set_form_submission_conversion">#</a>
-		<code><a href="source-class-CTA_Conversion_Tracking.html#55-80" title="Go to source code">set_form_submission_conversion</a>( <span> <var>$data</var></span> )</code>
+		<code><a href="source-class-CTA_Conversion_Tracking.html#64-89" title="Go to source code">set_form_submission_conversion</a>( <span> <var>$data</var></span> )</code>
 
 		<div class="description short">
 			<p>Listens for tracked form submissions embedded in calls to actions &amp; incrememnt conversions</p>
@@ -804,7 +802,7 @@
 
 		<td class="name"><div>
 		<a class="anchor" href="#_store_as_conversion">#</a>
-		<code><a href="source-class-CTA_Conversion_Tracking.html#83-116" title="Go to source code">store_as_conversion</a>( <span> <var>$args</var></span> )</code>
+		<code><a href="source-class-CTA_Conversion_Tracking.html#92-125" title="Go to source code">store_as_conversion</a>( <span> <var>$args</var></span> )</code>
 
 		<div class="description short">
 			<p>Stores lead as conversion</p>
@@ -818,6 +816,117 @@
 				<div class="list"><dl>
 					<dt><var>$args</var></dt>
 					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="record_impression_event" id="_record_impression_event">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_record_impression_event">#</a>
+		<code><a href="source-class-CTA_Conversion_Tracking.html#128-142" title="Go to source code">record_impression_event</a>( <span>INT <var>$event</var></span>, <span>INT <var>$vid</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Adds page view event to represent the CTA impression</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Adds page view event to represent the CTA impression</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$event</var></dt>
+					<dd>$cta_id id of call to action</dd>
+					<dt><var>$vid</var>,…</dt>
+					<dd>id of variation belonging to call to action</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update_impression_object" id="_update_impression_object">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update_impression_object">#</a>
+		<code><a href="source-class-CTA_Conversion_Tracking.html#143-161" title="Go to source code">update_impression_object</a>( <span>INT <var>$event</var></span>, <span>INT <var>$vid</var>,…</span> )</code>
+
+		<div class="description short">
+			<p>Increments impression count for given cta and variation id</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Increments impression count for given cta and variation id</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$event</var></dt>
+					<dd>$cta_id id of call to action</dd>
+					<dt><var>$vid</var>,…</dt>
+					<dd>id of variation belonging to call to action</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="record_conversion" id="_record_conversion">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_record_conversion">#</a>
+		<code><a href="source-class-CTA_Conversion_Tracking.html#164-182" title="Go to source code">record_conversion</a>( <span>INT <var>$cta_id</var></span>, <span>INT <var>$vid</var></span> )</code>
+
+		<div class="description short">
+			<p>Increments conversion count for given cta id and variation id</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Increments conversion count for given cta id and variation id</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$cta_id</var></dt>
+					<dd>id of call to action</dd>
+					<dt><var>$vid</var></dt>
+					<dd>id of variation belonging to call to action</dd>
 				</dl></div>
 
 

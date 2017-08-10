@@ -148,6 +148,11 @@
 
 						</li>
 				<li>
+					<a href="package-CTA.Tracking.html">
+						Tracking					</a>
+
+						</li>
+				<li>
 					<a href="package-CTA.Variations.html">
 						Variations					</a>
 
@@ -655,6 +660,7 @@
 				<li><a href="class-Inbound_Calls_To_Action_Plugin.html">Inbound_Calls_To_Action_Plugin</a></li>
 				<li><a href="class-Inbound_Confirm_Double_Optin.html">Inbound_Confirm_Double_Optin</a></li>
 				<li><a href="class-Inbound_Cron.html">Inbound_Cron</a></li>
+				<li><a href="class-Inbound_CTA_Quick_View.html">Inbound_CTA_Quick_View</a></li>
 				<li><a href="class-Inbound_Customizer.html">Inbound_Customizer</a></li>
 				<li><a href="class-Inbound_Debug_Scripts.html">Inbound_Debug_Scripts</a></li>
 				<li><a href="class-Inbound_Email_Meta.html">Inbound_Email_Meta</a></li>
@@ -1036,55 +1042,55 @@
 </span><span id="100" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'range'</span>])) {
 </span><span id="101" class="l">                <span class="xlang">?&gt;</span>
 </span><span id="102" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag tag-range&quot;</span>&gt;&amp;nbsp;
-</span><span id="103" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-keyword2">intval</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'range'</span>]) .<span class="php-quote">' '</span>. __( <span class="php-quote">'days'</span> , <span class="php-quote">'inboud-pro'</span>); <span class="xlang">?&gt;</span> &amp;nbsp; &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-calendar&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
+</span><span id="103" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-keyword2">intval</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'range'</span>]) .<span class="php-quote">' '</span>. __( <span class="php-quote">'days'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span> &amp;nbsp; &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-calendar&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
 </span><span id="104" class="l">                &lt;/div&gt;
 </span><span id="105" class="l">                <span class="xlang">&lt;?php</span>
 </span><span id="106" class="l">            }
 </span><span id="107" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'page_id'</span>])) {
 </span><span id="108" class="l">                <span class="xlang">?&gt;</span>
-</span><span id="109" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'page id'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
+</span><span id="109" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'Page Id'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
 </span><span id="110" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> sanitize_text_field(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'page_id'</span>]); <span class="xlang">?&gt;</span> &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-tag&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
 </span><span id="111" class="l">                &lt;/div&gt;
 </span><span id="112" class="l">                <span class="xlang">&lt;?php</span>
 </span><span id="113" class="l">            }
 </span><span id="114" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'lead_id'</span>]) &amp;&amp; <span class="php-var">$_REQUEST</span>[<span class="php-quote">'lead_id'</span>] ) {
 </span><span id="115" class="l">                <span class="xlang">?&gt;</span>
-</span><span id="116" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'lead id'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
+</span><span id="116" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'Lead Id'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
 </span><span id="117" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-keyword2">intval</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'lead_id'</span>]); <span class="xlang">?&gt;</span> &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-tag&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
 </span><span id="118" class="l">                &lt;/div&gt;
 </span><span id="119" class="l">                <span class="xlang">&lt;?php</span>
 </span><span id="120" class="l">            }
 </span><span id="121" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'lead_uid'</span>])) {
 </span><span id="122" class="l">                <span class="xlang">?&gt;</span>
-</span><span id="123" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'lead uid'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
+</span><span id="123" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'Lead UID'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
 </span><span id="124" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> sanitize_text_field(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'lead_uid'</span>]); <span class="xlang">?&gt;</span> &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-tag&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
 </span><span id="125" class="l">                &lt;/div&gt;
 </span><span id="126" class="l">                <span class="xlang">&lt;?php</span>
 </span><span id="127" class="l">            }
 </span><span id="128" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'source'</span>])) {
 </span><span id="129" class="l">                <span class="xlang">?&gt;</span>
-</span><span id="130" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'source'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
+</span><span id="130" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'Source'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
 </span><span id="131" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> sanitize_text_field(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'source'</span>]); <span class="xlang">?&gt;</span> &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-tag&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
 </span><span id="132" class="l">                &lt;/div&gt;
 </span><span id="133" class="l">                <span class="xlang">&lt;?php</span>
 </span><span id="134" class="l">            }
 </span><span id="135" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'event_name'</span>])) {
 </span><span id="136" class="l">                <span class="xlang">?&gt;</span>
-</span><span id="137" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'event'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
-</span><span id="138" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> sanitize_text_field(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'event_name'</span>]); <span class="xlang">?&gt;</span> &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-tag&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
+</span><span id="137" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'Event'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
+</span><span id="138" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> Inbound_Events::get_event_label(sanitize_text_field(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'event_name'</span>]), <span class="php-keyword1">false</span>); <span class="xlang">?&gt;</span> &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-tag&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
 </span><span id="139" class="l">                &lt;/div&gt;
 </span><span id="140" class="l">                <span class="xlang">&lt;?php</span>
 </span><span id="141" class="l">            }
 </span><span id="142" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'list_id'</span>])) {
 </span><span id="143" class="l">                <span class="xlang">?&gt;</span>
-</span><span id="144" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'list id'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
+</span><span id="144" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'List Id'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
 </span><span id="145" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-keyword2">intval</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'list_id'</span>]); <span class="xlang">?&gt;</span> &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-tag&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
 </span><span id="146" class="l">                &lt;/div&gt;
 </span><span id="147" class="l">                <span class="xlang">&lt;?php</span>
 </span><span id="148" class="l">            }
 </span><span id="149" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'job_id'</span>]) &amp;&amp; <span class="php-var">$_REQUEST</span>[<span class="php-quote">'job_id'</span>] ) {
 </span><span id="150" class="l">                <span class="xlang">?&gt;</span>
-</span><span id="151" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'job id'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
+</span><span id="151" class="l">                &lt;div <span class="php-keyword1">class</span>=<span class="php-quote">&quot;tag&quot;</span>&gt;&lt;span&gt;<span class="xlang">&lt;?php</span> _e(<span class="php-quote">'Job Id'</span> , <span class="php-quote">'inbound-pro'</span>); <span class="xlang">?&gt;</span>&lt;/span&gt;
 </span><span id="152" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-keyword2">intval</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'job_id'</span>]); <span class="xlang">?&gt;</span> &lt;i <span class="php-keyword1">class</span>=<span class="php-quote">&quot;fa fa-tag&quot;</span> aria-hidden=<span class="php-quote">&quot;true&quot;</span>&gt;&lt;/i&gt;
 </span><span id="153" class="l">                &lt;/div&gt;
 </span><span id="154" class="l">                <span class="xlang">&lt;?php</span>
@@ -1335,6 +1341,6 @@
 </div>
 </div>
 <script src="resources/combined.js?fa4df769e93505d23ea382fef9a6efc025e831a9"></script>
-<script src="elementlist.js?1a493d734d12838f2c975e2fd3c8e7637e05f4b9"></script>
+<script src="elementlist.js?194a9ac438d3032b9d99c38a8ee17bcaae04a85a"></script>
 </body>
 </html>

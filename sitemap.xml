@@ -79,6 +79,9 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-CTA.Templates.html</loc>
 </url>
 <url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-CTA.Tracking.html</loc>
+</url>
+<url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-CTA.Variations.html</loc>
 </url>
 <url>
@@ -505,6 +508,9 @@
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/class-Inbound_Cron.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/class-Inbound_CTA_Quick_View.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/class-Inbound_Customizer.html</loc>
