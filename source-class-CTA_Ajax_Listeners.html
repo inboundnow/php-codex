@@ -999,7 +999,7 @@
 </span><span id="57" class="l">
 </span><span id="58" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$ctas</span> <span class="php-keyword1">as</span> <span class="php-var">$cta</span>) {
 </span><span id="59" class="l">            <span class="php-comment">/* delete conversions */</span>
-</span><span id="60" class="l">            Inbound_Events::delete_related_events( <span class="php-var">$cta</span>-&gt;ID );
+</span><span id="60" class="l">            <span class="php-comment">//Inbound_Events::delete_related_events( $cta-&gt;ID );</span>
 </span><span id="61" class="l">
 </span><span id="62" class="l">            <span class="php-comment">/* delete impressions */</span>
 </span><span id="63" class="l">            <span class="php-var">$variations</span> = CTA_Variations::get_variations( <span class="php-var">$cta</span>-&gt;ID  );
@@ -1017,7 +1017,7 @@
 </span></span><span id="75" class="l"><span class="php-comment">    */</span>
 </span><span id="76" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> clear_stats() {
 </span><span id="77" class="l">        <span class="php-var">$cta_id</span> = <span class="php-keyword2">intval</span>(<span class="php-var">$_POST</span>[<span class="php-quote">'page_id'</span>]);
-</span><span id="78" class="l">        Inbound_Events::delete_related_events( <span class="php-var">$cta_id</span> );
+</span><span id="78" class="l">        <span class="php-comment">//Inbound_Events::delete_related_events( $cta_id );</span>
 </span><span id="79" class="l">
 </span><span id="80" class="l">        <span class="php-comment">/* delete impressions */</span>
 </span><span id="81" class="l">        <span class="php-var">$variations</span> = CTA_Variations::get_variations( <span class="php-var">$cta_id</span>  );
@@ -1034,7 +1034,7 @@
 </span><span id="92" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> clear_variation_stats() {
 </span><span id="93" class="l">        <span class="php-var">$cta_id</span> = <span class="php-keyword2">intval</span>(<span class="php-var">$_POST</span>[<span class="php-quote">'page_id'</span>]);
 </span><span id="94" class="l">        <span class="php-var">$vid</span> = <span class="php-keyword2">intval</span>(<span class="php-var">$_POST</span>[<span class="php-quote">'variation'</span>]);
-</span><span id="95" class="l">        Inbound_Events::delete_related_events( <span class="php-var">$cta_id</span>, <span class="php-var">$vid</span> );
+</span><span id="95" class="l">        <span class="php-comment">//Inbound_Events::delete_related_events( $cta_id, $vid );</span>
 </span><span id="96" class="l">        CTA_Variations::set_impression_count(<span class="php-var">$cta_id</span> , <span class="php-var">$vid</span> , <span class="php-num">0</span>);
 </span><span id="97" class="l">        <span class="php-keyword2">header</span>(<span class="php-quote">'HTTP/1.1 200 OK'</span>);
 </span><span id="98" class="l">        <span class="php-keyword1">exit</span>;
