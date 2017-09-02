@@ -266,18 +266,6 @@
 						</li>
 							</ul></li>
 				<li>
-					<a href="package-Landing.html">
-						Landing<span></span>
-					</a>
-
-						<ul>
-				<li>
-					<a href="package-Landing.Variations.html">
-						Variations					</a>
-
-						</li>
-							</ul></li>
-				<li>
 					<a href="package-LandingPages.html">
 						LandingPages<span></span>
 					</a>
@@ -326,6 +314,11 @@
 				<li>
 					<a href="package-LandingPages.Tracking.html">
 						Tracking					</a>
+
+						</li>
+				<li>
+					<a href="package-LandingPages.Variations.html">
+						Variations					</a>
 
 						</li>
 				<li>
@@ -1420,7 +1413,7 @@
 </span><span id="478" class="l">            <span class="php-comment">/* determine if inbound_track_lead action will be available for use */</span>
 </span><span id="479" class="l">            <span class="php-var">$inbound_settings</span>[<span class="php-quote">'inbound-analytics-rules'</span>] = ( <span class="php-keyword1">isset</span>( <span class="php-var">$inbound_settings</span>[<span class="php-quote">'inbound-analytics-rules'</span>]) ) ? <span class="php-var">$inbound_settings</span>[<span class="php-quote">'inbound-analytics-rules'</span>] : <span class="php-keyword1">array</span>();
 </span><span id="480" class="l">            <span class="php-var">$page_tracking</span> = ( <span class="php-keyword1">isset</span>( <span class="php-var">$inbound_settings</span>[<span class="php-quote">'inbound-analytics-rules'</span>][<span class="php-quote">'page-tracking'</span>]) ) ? <span class="php-var">$inbound_settings</span>[<span class="php-quote">'inbound-analytics-rules'</span>][<span class="php-quote">'page-tracking'</span>] : <span class="php-quote">'on'</span>;
-</span><span id="481" class="l">            <span class="php-var">$page_tracking</span> = ( <span class="php-keyword2">class_exists</span>(<span class="php-quote">'Inbound_Pro_Leads'</span>) ) ? <span class="php-var">$page_tracking</span> : <span class="php-quote">'off'</span>;
+</span><span id="481" class="l">            <span class="php-var">$page_tracking</span> = ( <span class="php-keyword2">class_exists</span>(<span class="php-quote">'Inbound_Leads_Plugin'</span>) ) ? <span class="php-var">$page_tracking</span> : <span class="php-quote">'off'</span>;
 </span><span id="482" class="l">
 </span><span id="483" class="l">            <span class="php-comment">/* cta preview mode uses shortcodes that call this manually */</span>
 </span><span id="484" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$post</span>) &amp;&amp; <span class="php-var">$post</span>-&gt;post_type == <span class="php-quote">'wp-call-to-action'</span> ) {

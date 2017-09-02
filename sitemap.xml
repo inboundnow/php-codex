@@ -148,12 +148,6 @@
 	<loc>https://inboundnow.github.io/PHP-Codex/package-InboundPro.Updates.html</loc>
 </url>
 <url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Landing.html</loc>
-</url>
-<url>
-	<loc>https://inboundnow.github.io/PHP-Codex/package-Landing.Variations.html</loc>
-</url>
-<url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.html</loc>
 </url>
 <url>
@@ -182,6 +176,9 @@
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Tracking.html</loc>
+</url>
+<url>
+	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.Variations.html</loc>
 </url>
 <url>
 	<loc>https://inboundnow.github.io/PHP-Codex/package-LandingPages.WelcomeScreen.html</loc>
