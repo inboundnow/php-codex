@@ -1905,12 +1905,12 @@
 </span></span><span id="970" class="l"><span class="php-quote">     */
 </span></span><span id="971" class="l"><span class="php-quote">    public static function display_lead_activity() {
 </span></span><span id="972" class="l"><span class="php-quote">
-</span></span><span id="973" class="l"><span class="php-quote">        /* do not render legacy activity tab if Inbound Analytics is on and user is subscriber */
+</span></span><span id="973" class="l"><span class="php-quote">        /* do not render legacy activity tab if Inbound Analytics is on and user is subscriber
 </span></span><span id="974" class="l"><span class="php-quote">        if (class_exists('</span>Inbound_Analytics<span class="php-quote">')) {
 </span></span><span id="975" class="l"><span class="php-quote">            if (INBOUND_ACCESS_LEVEL &gt; 0 &amp;&amp; INBOUND_ACCESS_LEVEL != 9 ) {
 </span></span><span id="976" class="l"><span class="php-quote">                return;
 </span></span><span id="977" class="l"><span class="php-quote">            }
-</span></span><span id="978" class="l"><span class="php-quote">        }
+</span></span><span id="978" class="l"><span class="php-quote">        }*/
 </span></span><span id="979" class="l"><span class="php-quote">
 </span></span><span id="980" class="l"><span class="php-quote">        echo '</span>&lt;div id=<span class="php-quote">&quot;activity-data-display&quot;</span>&gt;<span class="php-quote">';
 </span></span><span id="981" class="l"><span class="php-quote">        self::activity_navigation();
@@ -1929,12 +1929,12 @@
 </span></span><span id="994" class="l"><span class="php-quote">    public static function display_lead_conversion_paths() {
 </span></span><span id="995" class="l"><span class="php-quote">        global $post, $wpdb;
 </span></span><span id="996" class="l"><span class="php-quote">
-</span></span><span id="997" class="l"><span class="php-quote">        /* do not render legacy activity tab if Inbound Analytics is on and user is subscriber */
+</span></span><span id="997" class="l"><span class="php-quote">        /* do not render legacy activity tab if Inbound Analytics is on and user is subscriber
 </span></span><span id="998" class="l"><span class="php-quote">        if (class_exists('</span>Inbound_Analytics<span class="php-quote">')) {
 </span></span><span id="999" class="l"><span class="php-quote">            if (INBOUND_ACCESS_LEVEL &gt; 0 &amp;&amp; INBOUND_ACCESS_LEVEL != 9 ) {
 </span></span><span id="1000" class="l"><span class="php-quote">                return;
 </span></span><span id="1001" class="l"><span class="php-quote">            }
-</span></span><span id="1002" class="l"><span class="php-quote">        }
+</span></span><span id="1002" class="l"><span class="php-quote">        }*/
 </span></span><span id="1003" class="l"><span class="php-quote">
 </span></span><span id="1004" class="l"><span class="php-quote">        self::get_conversions( $post-&gt;ID );
 </span></span><span id="1005" class="l"><span class="php-quote">

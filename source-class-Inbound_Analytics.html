@@ -966,7 +966,7 @@
 </span><span id="31" class="l">        remove_action(<span class="php-quote">'init'</span>, <span class="php-quote">'inbound_load_legacy_statistics'</span>, <span class="php-num">10</span>);
 </span><span id="32" class="l">
 </span><span id="33" class="l">        <span class="php-comment">/* remove navigation tabs from lead profile */</span>
-</span><span id="34" class="l">        add_filter(<span class="php-quote">'wpl_lead_tabs'</span>, <span class="php-keyword1">array</span>(__CLASS__, <span class="php-quote">'filter_profile_tabs'</span>), <span class="php-num">10</span>, <span class="php-num">1</span>);
+</span><span id="34" class="l">        <span class="php-comment">//add_filter('wpl_lead_tabs', array(__CLASS__, 'filter_profile_tabs'), 10, 1);</span>
 </span><span id="35" class="l">
 </span><span id="36" class="l">        <span class="php-comment">/* Load Google Charting API &amp; Inbound Analytics Styling CSS*/</span>
 </span><span id="37" class="l">        add_action(<span class="php-quote">'admin_enqueue_scripts'</span>, <span class="php-keyword1">array</span>(__CLASS__, <span class="php-quote">'load_scripts'</span>));
