@@ -1286,7 +1286,7 @@
 </span><span id="351" class="l">
 </span><span id="352" class="l">        <span class="php-comment">/* return lead field value if it exists */</span>
 </span><span id="353" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$value</span>) {
-</span><span id="354" class="l">            <span class="php-keyword1">return</span> <span class="php-var">$value</span>;
+</span><span id="354" class="l">            <span class="php-keyword1">return</span> (<span class="php-keyword2">is_array</span>(<span class="php-var">$value</span>)) ? <span class="php-keyword2">implode</span>(<span class="php-quote">','</span> , <span class="php-var">$value</span> ) : <span class="php-var">$value</span>;
 </span><span id="355" class="l">        } <span class="php-keyword1">else</span> {
 </span><span id="356" class="l">            <span class="php-keyword1">return</span> <span class="php-var">$params</span>[<span class="php-quote">'default'</span>];
 </span><span id="357" class="l">        }
