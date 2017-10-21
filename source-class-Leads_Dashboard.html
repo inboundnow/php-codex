@@ -1315,7 +1315,7 @@
 </span><span id="380" class="l">            <span class="php-keyword1">return</span>;
 </span><span id="381" class="l">        }
 </span><span id="382" class="l">
-</span><span id="383" class="l">        <span class="php-var">$time</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="383" class="l">        <span class="php-var">$time</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="384" class="l">        <span class="php-var">$today</span> = <span class="php-var">$time</span>-&gt;format(<span class="php-quote">'Ymd'</span>);
 </span><span id="385" class="l">        <span class="php-var">$this_month</span> = <span class="php-var">$time</span>-&gt;modify(<span class="php-quote">'first day of this month'</span>)-&gt;format(<span class="php-quote">'Ym'</span>);
 </span><span id="386" class="l">
@@ -1606,7 +1606,7 @@
 </span><span id="671" class="l">            <span class="php-keyword1">return</span>;
 </span><span id="672" class="l">        }
 </span><span id="673" class="l">
-</span><span id="674" class="l">        <span class="php-var">$today</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="674" class="l">        <span class="php-var">$today</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="675" class="l">        <span class="php-var">$dates</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$today</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="676" class="l">        <span class="php-var">$today</span>-&gt;modify(<span class="php-var">$start_date</span>);
 </span><span id="677" class="l">        <span class="php-var">$dates</span>[<span class="php-quote">'start_date'</span>] = <span class="php-var">$today</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);

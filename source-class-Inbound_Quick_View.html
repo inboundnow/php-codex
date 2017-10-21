@@ -1381,7 +1381,7 @@
 </span><span id="446" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_impressions(<span class="php-var">$args</span>) {
 </span><span id="447" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="448" class="l">
-</span><span id="449" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="449" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="450" class="l">
 </span><span id="451" class="l">            <span class="php-var">$args</span>[<span class="php-quote">'page_id'</span>] = <span class="php-var">$post</span>-&gt;ID;
 </span><span id="452" class="l">
@@ -1401,7 +1401,7 @@
 </span><span id="466" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_visitors(<span class="php-var">$args</span>) {
 </span><span id="467" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="468" class="l">
-</span><span id="469" class="l">            <span class="php-var">$wordpress_date_time</span> =  date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="469" class="l">            <span class="php-var">$wordpress_date_time</span> =  date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="470" class="l">
 </span><span id="471" class="l">            <span class="php-var">$args</span>[<span class="php-quote">'page_id'</span>] = <span class="php-var">$post</span>-&gt;ID;
 </span><span id="472" class="l">
@@ -1420,7 +1420,7 @@
 </span><span id="485" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_actions(<span class="php-var">$args</span>) {
 </span><span id="486" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="487" class="l">
-</span><span id="488" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="488" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="489" class="l">
 </span><span id="490" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>]) {
 </span><span id="491" class="l">                <span class="php-var">$start_date</span> = <span class="php-keyword2">date</span>(<span class="php-quote">'Y-m-d G:i:s'</span>, <span class="php-keyword2">strtotime</span>(<span class="php-quote">&quot;-&quot;</span> . <span class="php-var">$args</span>[<span class="php-quote">'per_days'</span>] * (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>] + <span class="php-num">1</span>) . <span class="php-quote">&quot; days&quot;</span>, <span class="php-keyword2">strtotime</span>(<span class="php-var">$wordpress_date_time</span>)));
@@ -1436,7 +1436,7 @@
 </span><span id="501" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_submissions(<span class="php-var">$args</span>) {
 </span><span id="502" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="503" class="l">
-</span><span id="504" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="504" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="505" class="l">
 </span><span id="506" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>]) {
 </span><span id="507" class="l">                <span class="php-var">$start_date</span> = <span class="php-keyword2">date</span>(<span class="php-quote">'Y-m-d G:i:s'</span>, <span class="php-keyword2">strtotime</span>(<span class="php-quote">&quot;-&quot;</span> . <span class="php-var">$args</span>[<span class="php-quote">'per_days'</span>] * (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>] + <span class="php-num">1</span>) . <span class="php-quote">&quot; days&quot;</span>, <span class="php-keyword2">strtotime</span>(<span class="php-var">$wordpress_date_time</span>)));
@@ -1458,7 +1458,7 @@
 </span><span id="523" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_tracked_cta_clicks(<span class="php-var">$args</span>) {
 </span><span id="524" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="525" class="l">
-</span><span id="526" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="526" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="527" class="l">
 </span><span id="528" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>]) {
 </span><span id="529" class="l">                <span class="php-var">$start_date</span> = <span class="php-keyword2">date</span>(<span class="php-quote">'Y-m-d G:i:s'</span>, <span class="php-keyword2">strtotime</span>(<span class="php-quote">&quot;-&quot;</span> . <span class="php-var">$args</span>[<span class="php-quote">'per_days'</span>] * (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>] + <span class="php-num">1</span>) . <span class="php-quote">&quot; days&quot;</span>, <span class="php-keyword2">strtotime</span>(<span class="php-var">$wordpress_date_time</span>)));
@@ -1480,7 +1480,7 @@
 </span><span id="545" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_tracked_content_clicks(<span class="php-var">$args</span>) {
 </span><span id="546" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="547" class="l">
-</span><span id="548" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="548" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="549" class="l">
 </span><span id="550" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>]) {
 </span><span id="551" class="l">                <span class="php-var">$start_date</span> = <span class="php-keyword2">date</span>(<span class="php-quote">'Y-m-d G:i:s'</span>, <span class="php-keyword2">strtotime</span>(<span class="php-quote">&quot;-&quot;</span> . <span class="php-var">$args</span>[<span class="php-quote">'per_days'</span>] * (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>] + <span class="php-num">1</span>) . <span class="php-quote">&quot; days&quot;</span>, <span class="php-keyword2">strtotime</span>(<span class="php-var">$wordpress_date_time</span>)));

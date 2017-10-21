@@ -1425,7 +1425,7 @@
 </span><span id="490" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_impressions(<span class="php-var">$args</span>) {
 </span><span id="491" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="492" class="l">
-</span><span id="493" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="493" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="494" class="l">
 </span><span id="495" class="l">            <span class="php-var">$args</span>[<span class="php-quote">'cta_id'</span>] = <span class="php-var">$post</span>-&gt;ID;
 </span><span id="496" class="l">
@@ -1449,7 +1449,7 @@
 </span><span id="514" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_visitors(<span class="php-var">$args</span>) {
 </span><span id="515" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="516" class="l">
-</span><span id="517" class="l">            <span class="php-var">$wordpress_date_time</span> =  date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="517" class="l">            <span class="php-var">$wordpress_date_time</span> =  date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="518" class="l">
 </span><span id="519" class="l">            <span class="php-var">$args</span>[<span class="php-quote">'cta_id'</span>] = <span class="php-var">$post</span>-&gt;ID;
 </span><span id="520" class="l">
@@ -1468,7 +1468,7 @@
 </span><span id="533" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_actions(<span class="php-var">$args</span>) {
 </span><span id="534" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="535" class="l">
-</span><span id="536" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="536" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="537" class="l">
 </span><span id="538" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>]) {
 </span><span id="539" class="l">                <span class="php-var">$start_date</span> = <span class="php-keyword2">date</span>(<span class="php-quote">'Y-m-d G:i:s'</span>, <span class="php-keyword2">strtotime</span>(<span class="php-quote">&quot;-&quot;</span> . <span class="php-var">$args</span>[<span class="php-quote">'per_days'</span>] * (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>] + <span class="php-num">1</span>) . <span class="php-quote">&quot; days&quot;</span>, <span class="php-keyword2">strtotime</span>(<span class="php-var">$wordpress_date_time</span>)));
@@ -1484,7 +1484,7 @@
 </span><span id="549" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_submissions(<span class="php-var">$args</span>) {
 </span><span id="550" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="551" class="l">
-</span><span id="552" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="552" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="553" class="l">
 </span><span id="554" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>]) {
 </span><span id="555" class="l">                <span class="php-var">$start_date</span> = <span class="php-keyword2">date</span>(<span class="php-quote">'Y-m-d G:i:s'</span>, <span class="php-keyword2">strtotime</span>(<span class="php-quote">&quot;-&quot;</span> . <span class="php-var">$args</span>[<span class="php-quote">'per_days'</span>] * (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>] + <span class="php-num">1</span>) . <span class="php-quote">&quot; days&quot;</span>, <span class="php-keyword2">strtotime</span>(<span class="php-var">$wordpress_date_time</span>)));
@@ -1506,7 +1506,7 @@
 </span><span id="571" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_tracked_cta_clicks(<span class="php-var">$args</span>) {
 </span><span id="572" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="573" class="l">
-</span><span id="574" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="574" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="575" class="l">
 </span><span id="576" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>]) {
 </span><span id="577" class="l">                <span class="php-var">$start_date</span> = <span class="php-keyword2">date</span>(<span class="php-quote">'Y-m-d G:i:s'</span>, <span class="php-keyword2">strtotime</span>(<span class="php-quote">&quot;-&quot;</span> . <span class="php-var">$args</span>[<span class="php-quote">'per_days'</span>] * (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>] + <span class="php-num">1</span>) . <span class="php-quote">&quot; days&quot;</span>, <span class="php-keyword2">strtotime</span>(<span class="php-var">$wordpress_date_time</span>)));
@@ -1528,7 +1528,7 @@
 </span><span id="593" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_tracked_content_clicks(<span class="php-var">$args</span>) {
 </span><span id="594" class="l">            <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="595" class="l">
-</span><span id="596" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="596" class="l">            <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="597" class="l">
 </span><span id="598" class="l">            <span class="php-keyword1">if</span> (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>]) {
 </span><span id="599" class="l">                <span class="php-var">$start_date</span> = <span class="php-keyword2">date</span>(<span class="php-quote">'Y-m-d G:i:s'</span>, <span class="php-keyword2">strtotime</span>(<span class="php-quote">&quot;-&quot;</span> . <span class="php-var">$args</span>[<span class="php-quote">'per_days'</span>] * (<span class="php-var">$args</span>[<span class="php-quote">'skip'</span>] + <span class="php-num">1</span>) . <span class="php-quote">&quot; days&quot;</span>, <span class="php-keyword2">strtotime</span>(<span class="php-var">$wordpress_date_time</span>)));
@@ -1560,7 +1560,7 @@
 </span><span id="625" class="l">            }
 </span><span id="626" class="l">
 </span><span id="627" class="l">            <span class="php-comment">/** get the cta click events between two given dates **/</span>
-</span><span id="628" class="l">            <span class="php-var">$current_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="628" class="l">            <span class="php-var">$current_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="629" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$current_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="630" class="l">            <span class="php-var">$current_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . <span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );
 </span><span id="631" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'start_date'</span>] = <span class="php-var">$current_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
@@ -1568,7 +1568,7 @@
 </span><span id="633" class="l">            <span class="php-var">$variation_click_stats</span>[<span class="php-quote">'current_stats'</span>] = Inbound_Events::get_cta_conversions(<span class="php-quote">'cta_id'</span>, <span class="php-var">$params</span>);
 </span><span id="634" class="l">
 </span><span id="635" class="l">            <span class="php-comment">/** get the cta clicks between two dates further back in time for something to compare stats against **/</span>
-</span><span id="636" class="l">            <span class="php-var">$past_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="636" class="l">            <span class="php-var">$past_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="637" class="l">            <span class="php-var">$past_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . <span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );
 </span><span id="638" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$past_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="639" class="l">            <span class="php-var">$past_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . <span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );
@@ -1640,14 +1640,14 @@
 </span><span id="705" class="l">            }
 </span><span id="706" class="l">
 </span><span id="707" class="l">            <span class="php-comment">/** get the cta click events between two given dates **/</span>
-</span><span id="708" class="l">            <span class="php-var">$current_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="708" class="l">            <span class="php-var">$current_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="709" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$current_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="710" class="l">            <span class="php-var">$current_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . self::<span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );
 </span><span id="711" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'start_date'</span>] = <span class="php-var">$current_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="712" class="l">
 </span><span id="713" class="l">            <span class="php-var">$impressions</span>[<span class="php-quote">'current'</span>] = Inbound_Events::get_page_views_by(<span class="php-quote">'cta_id'</span>, <span class="php-var">$params</span>);
 </span><span id="714" class="l">
-</span><span id="715" class="l">            <span class="php-var">$past_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="715" class="l">            <span class="php-var">$past_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="716" class="l">            <span class="php-var">$past_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . self::<span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );
 </span><span id="717" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$past_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="718" class="l">            <span class="php-var">$past_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . self::<span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );
@@ -1696,14 +1696,14 @@
 </span><span id="761" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'cta_id'</span>] = <span class="php-var">$post</span>-&gt;ID;
 </span><span id="762" class="l">
 </span><span id="763" class="l">            <span class="php-comment">/** get the cta click events between two given dates **/</span>
-</span><span id="764" class="l">            <span class="php-var">$current_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="764" class="l">            <span class="php-var">$current_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="765" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$current_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="766" class="l">            <span class="php-var">$current_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . self::<span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );
 </span><span id="767" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'start_date'</span>] = <span class="php-var">$current_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="768" class="l">
 </span><span id="769" class="l">            <span class="php-var">$post_conversions</span>[<span class="php-quote">'current'</span>] = Inbound_Events::get_cta_conversions(<span class="php-quote">'cta_id'</span>, <span class="php-var">$params</span>);
 </span><span id="770" class="l">
-</span><span id="771" class="l">            <span class="php-var">$past_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="771" class="l">            <span class="php-var">$past_range</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="772" class="l">            <span class="php-var">$past_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . self::<span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );
 </span><span id="773" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$past_range</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="774" class="l">            <span class="php-var">$past_range</span>-&gt;modify( (<span class="php-quote">'-'</span> . self::<span class="php-var">$range</span> . <span class="php-quote">'days'</span>) );

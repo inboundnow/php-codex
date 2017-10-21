@@ -1326,7 +1326,7 @@
 </span></span><span id="391" class="l"><span class="php-comment">     */</span>
 </span><span id="392" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> mute_lists( <span class="php-var">$params</span>, <span class="php-var">$time</span> ) {
 </span><span id="393" class="l">
-</span><span id="394" class="l">        <span class="php-var">$wordpress_date_time</span> =  date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="394" class="l">        <span class="php-var">$wordpress_date_time</span> =  date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="395" class="l">        <span class="php-var">$dateTime</span> = <span class="php-keyword1">new</span> DateTime(<span class="php-var">$wordpress_date_time</span>);
 </span><span id="396" class="l">        <span class="php-var">$dateTime</span>-&gt;modify(<span class="php-quote">'+'</span>.<span class="php-var">$time</span>.<span class="php-quote">' months'</span>);
 </span><span id="397" class="l">        <span class="php-var">$release_date</span> = <span class="php-var">$dateTime</span>-&gt;format(<span class="php-quote">'Y-m-d H:i'</span>);

@@ -981,7 +981,7 @@
 </span><span id="46" class="l">
 </span><span id="47" class="l">        <span class="php-keyword1">global</span> <span class="php-var">$post</span>;
 </span><span id="48" class="l">
-</span><span id="49" class="l">        <span class="php-var">$today</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>));
+</span><span id="49" class="l">        <span class="php-var">$today</span> = <span class="php-keyword1">new</span> DateTime(date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>));
 </span><span id="50" class="l">        <span class="php-var">$dates</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$today</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);
 </span><span id="51" class="l">        <span class="php-var">$today</span>-&gt;modify(<span class="php-quote">'-'</span>.<span class="php-var">$range</span>.<span class="php-quote">' days'</span>);
 </span><span id="52" class="l">        <span class="php-var">$dates</span>[<span class="php-quote">'start_date'</span>] =  <span class="php-var">$today</span>-&gt;format(<span class="php-quote">'Y-m-d G:i:s T'</span>);

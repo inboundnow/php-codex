@@ -1182,7 +1182,7 @@
 </span><span id="247" class="l">        }
 </span><span id="248" class="l">
 </span><span id="249" class="l">        <span class="php-comment">/* get datetime */</span>
-</span><span id="250" class="l">        <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="250" class="l">        <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="251" class="l">
 </span><span id="252" class="l">        <span class="php-comment">/* get first row of result set for determining email_id */</span>
 </span><span id="253" class="l">        self::<span class="php-var">$row</span> = self::<span class="php-var">$results</span>[<span class="php-num">0</span>];
@@ -1574,7 +1574,7 @@
 </span><span id="639" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> check_stop_rules() {
 </span><span id="640" class="l">
 </span><span id="641" class="l">        <span class="php-var">$stop_rules</span> = Inbound_Mailer_Unsubscribe::get_stop_rules(self::<span class="php-var">$row</span>-&gt;lead_id);
-</span><span id="642" class="l">        <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s T'</span>);
+</span><span id="642" class="l">        <span class="php-var">$wordpress_date_time</span> = date_i18n(<span class="php-quote">'Y-m-d G:i:s'</span>);
 </span><span id="643" class="l">
 </span><span id="644" class="l">        <span class="php-var">$passed</span> = <span class="php-num">0</span>;
 </span><span id="645" class="l">        <span class="php-var">$failed</span> = <span class="php-num">0</span>;
