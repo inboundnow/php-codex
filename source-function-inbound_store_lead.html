@@ -629,6 +629,7 @@
 				<li><a href="class-Inbound_Automation_Action_Add_Remove_List.html">Inbound_Automation_Action_Add_Remove_List</a></li>
 				<li><a href="class-Inbound_Automation_Action_Add_Remove_Tag.html">Inbound_Automation_Action_Add_Remove_Tag</a></li>
 				<li><a href="class-Inbound_Automation_Action_Create_Lead.html">Inbound_Automation_Action_Create_Lead</a></li>
+				<li><a href="class-Inbound_Automation_Action_Create_User.html">Inbound_Automation_Action_Create_User</a></li>
 				<li><a href="class-Inbound_Automation_Action_Kill_Tasks.html">Inbound_Automation_Action_Kill_Tasks</a></li>
 				<li><a href="class-Inbound_Automation_Action_Relay_Data.html">Inbound_Automation_Action_Relay_Data</a></li>
 				<li><a href="class-Inbound_Automation_Action_Send_Email.html">Inbound_Automation_Action_Send_Email</a></li>
@@ -1061,102 +1062,102 @@
 </span><span id="126" class="l">                    <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] = self::store_new_lead(<span class="php-var">$lead</span>);
 </span><span id="127" class="l">                }
 </span><span id="128" class="l">
-</span><span id="129" class="l">                <span class="php-comment">/* if status is included in lead array then set status */</span>
-</span><span id="130" class="l">                <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$lead</span>[<span class="php-quote">'wp_lead_status'</span>]) &amp;&amp; !<span class="php-keyword1">empty</span>(<span class="php-var">$lead</span>[<span class="php-quote">'wp_lead_status'</span>])) {
-</span><span id="131" class="l">                    update_post_meta(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'wp_lead_status'</span>, <span class="php-var">$lead</span>[<span class="php-quote">'wp_lead_status'</span>]);
-</span><span id="132" class="l">                }
-</span><span id="133" class="l">                <span class="php-comment">/* else if new lead then set status to new */</span>
-</span><span id="134" class="l">                <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> (!<span class="php-var">$leadExists</span>) {
-</span><span id="135" class="l">                    update_post_meta(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'wp_lead_status'</span>, <span class="php-quote">'new'</span>);
-</span><span id="136" class="l">                }
-</span><span id="137" class="l">
-</span><span id="138" class="l">                <span class="php-comment">/* do everything else for lead storage */</span>
-</span><span id="139" class="l">                self::update_common_meta(<span class="php-var">$lead</span>);
-</span><span id="140" class="l">
-</span><span id="141" class="l">                do_action(<span class="php-quote">'wpleads_after_conversion_lead_insert'</span>, <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>]); <span class="php-comment">/* action hook on all lead inserts */</span>
-</span><span id="142" class="l">
-</span><span id="143" class="l">                <span class="php-comment">/* Add Leads to List on creation */</span>
-</span><span id="144" class="l">                <span class="php-keyword1">if</span>(!<span class="php-keyword1">empty</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_lists'</span>]) &amp;&amp; <span class="php-keyword2">is_array</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_lists'</span>])){
-</span><span id="145" class="l">                    <span class="php-var">$double_optin_lists</span> = <span class="php-keyword1">array</span>();
-</span><span id="146" class="l">                    <span class="php-var">$normal_lists</span> = <span class="php-keyword1">array</span>();
-</span><span id="147" class="l">
-</span><span id="148" class="l">                    <span class="php-comment">/*differentiate between double optin lists and lists that don't require double optin*/</span>
-</span><span id="149" class="l">                    <span class="php-keyword1">foreach</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_lists'</span>] <span class="php-keyword1">as</span> <span class="php-var">$list_id</span>){
-</span><span id="150" class="l">                        <span class="php-var">$list_meta_settings</span> = get_term_meta(<span class="php-var">$list_id</span>, <span class="php-quote">'wplead_lead_list_meta_settings'</span>, <span class="php-keyword1">true</span>);
-</span><span id="151" class="l">                        <span class="php-keyword1">if</span>(<span class="php-keyword1">isset</span>(<span class="php-var">$list_meta_settings</span>[<span class="php-quote">'double_optin'</span>]) &amp;&amp; <span class="php-var">$list_meta_settings</span>[<span class="php-quote">'double_optin'</span>] == <span class="php-quote">'1'</span>){
-</span><span id="152" class="l">                            <span class="php-var">$double_optin_lists</span>[] = <span class="php-var">$list_id</span>;
-</span><span id="153" class="l">                        }<span class="php-keyword1">else</span>{
-</span><span id="154" class="l">                            <span class="php-var">$normal_lists</span>[] = <span class="php-var">$list_id</span>;
-</span><span id="155" class="l">                        }
-</span><span id="156" class="l">                    }
-</span><span id="157" class="l">
-</span><span id="158" class="l">                    <span class="php-comment">/*remove any groups that the lead is already on from the double optin groups*/</span>
-</span><span id="159" class="l">                    <span class="php-keyword1">if</span>(<span class="php-keyword2">array_filter</span>(<span class="php-var">$double_optin_lists</span>)){
-</span><span id="160" class="l">                        <span class="php-var">$existing_lists</span> = wp_get_post_terms( <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'wplead_list_category'</span>);
-</span><span id="161" class="l">                        <span class="php-keyword1">foreach</span>(<span class="php-var">$existing_lists</span> <span class="php-keyword1">as</span> <span class="php-var">$existing_list</span>){
-</span><span id="162" class="l">                            <span class="php-keyword1">if</span>(<span class="php-keyword2">in_array</span>(<span class="php-var">$existing_list</span>-&gt;term_id, <span class="php-var">$double_optin_lists</span>)){
-</span><span id="163" class="l">                                <span class="php-var">$index</span> = <span class="php-keyword2">array_search</span>(<span class="php-var">$existing_list</span>-&gt;term_id, <span class="php-var">$double_optin_lists</span>);
-</span><span id="164" class="l">                                <span class="php-keyword1">unset</span>(<span class="php-var">$double_optin_lists</span>[<span class="php-var">$index</span>]);
-</span><span id="165" class="l">                            }
-</span><span id="166" class="l">                        }
-</span><span id="167" class="l">                    }
-</span><span id="168" class="l">
-</span><span id="169" class="l">                    <span class="php-keyword1">if</span>(<span class="php-keyword2">array_filter</span>(<span class="php-var">$double_optin_lists</span>)){
-</span><span id="170" class="l">                        <span class="php-comment">/*get the double optin waiting list id*/</span>
-</span><span id="171" class="l">                        <span class="php-keyword1">if</span>(!<span class="php-keyword2">defined</span>(<span class="php-quote">'INBOUND_PRO_CURRENT_VERSION'</span>)){
-</span><span id="172" class="l">                            <span class="php-var">$double_optin_list_id</span> = get_option(<span class="php-quote">'list-double-optin-list-id'</span>, <span class="php-quote">''</span>);
-</span><span id="173" class="l">                        }<span class="php-keyword1">else</span>{
-</span><span id="174" class="l">                            <span class="php-var">$settings</span> = Inbound_Options_API::get_option(<span class="php-quote">'inbound-pro'</span>, <span class="php-quote">'settings'</span>, <span class="php-keyword1">array</span>());
-</span><span id="175" class="l">                            <span class="php-var">$double_optin_list_id</span> = <span class="php-var">$settings</span>[<span class="php-quote">'leads'</span>][<span class="php-quote">'list-double-optin-list-id'</span>];
-</span><span id="176" class="l">                        }
-</span><span id="177" class="l">
-</span><span id="178" class="l">                        <span class="php-comment">/*if there is a list to store the leads in*/</span>
-</span><span id="179" class="l">                        <span class="php-keyword1">if</span>(<span class="php-var">$double_optin_list_id</span>){
-</span><span id="180" class="l">                            <span class="php-comment">/*store the list ids that need confirmation*/</span>
-</span><span id="181" class="l">                            update_post_meta(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'double_optin_lists'</span>, <span class="php-var">$double_optin_lists</span>);
-</span><span id="182" class="l">
-</span><span id="183" class="l">                            <span class="php-comment">/*change the lead status to waiting for double optin*/</span>
-</span><span id="184" class="l">                            update_post_meta( <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] , <span class="php-quote">'wp_lead_status'</span> , <span class="php-quote">'double-optin'</span>);
-</span><span id="185" class="l">
-</span><span id="186" class="l">                            <span class="php-comment">/*add the lead to the double optin confirmation list*/</span>
-</span><span id="187" class="l">                            Inbound_Leads::add_lead_to_list(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-var">$double_optin_list_id</span>);
-</span><span id="188" class="l">                            Inbound_List_Double_Optin::send_double_optin_confirmation(<span class="php-var">$lead</span>);
-</span><span id="189" class="l">                        }
-</span><span id="190" class="l">                    }
+</span><span id="129" class="l">
+</span><span id="130" class="l">                <span class="php-comment">/* Store Mapped Form Data */</span>
+</span><span id="131" class="l">                <span class="php-keyword1">if</span>(!<span class="php-keyword1">empty</span>(<span class="php-var">$mappedData</span>)){
+</span><span id="132" class="l">                    self::store_mapped_data(<span class="php-var">$lead</span>, <span class="php-var">$mappedData</span>);
+</span><span id="133" class="l">                }
+</span><span id="134" class="l">
+</span><span id="135" class="l">                <span class="php-comment">/* if status is included in lead array then set status */</span>
+</span><span id="136" class="l">                <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$lead</span>[<span class="php-quote">'wp_lead_status'</span>]) &amp;&amp; !<span class="php-keyword1">empty</span>(<span class="php-var">$lead</span>[<span class="php-quote">'wp_lead_status'</span>])) {
+</span><span id="137" class="l">                    update_post_meta(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'wp_lead_status'</span>, <span class="php-var">$lead</span>[<span class="php-quote">'wp_lead_status'</span>]);
+</span><span id="138" class="l">                }
+</span><span id="139" class="l">                <span class="php-comment">/* else if new lead then set status to new */</span>
+</span><span id="140" class="l">                <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> (!<span class="php-var">$leadExists</span>) {
+</span><span id="141" class="l">                    update_post_meta(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'wp_lead_status'</span>, <span class="php-quote">'new'</span>);
+</span><span id="142" class="l">                }
+</span><span id="143" class="l">
+</span><span id="144" class="l">                <span class="php-comment">/* do everything else for lead storage */</span>
+</span><span id="145" class="l">                self::update_common_meta(<span class="php-var">$lead</span>);
+</span><span id="146" class="l">
+</span><span id="147" class="l">                do_action(<span class="php-quote">'wpleads_after_conversion_lead_insert'</span>, <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>]); <span class="php-comment">/* action hook on all lead inserts */</span>
+</span><span id="148" class="l">
+</span><span id="149" class="l">                <span class="php-comment">/* Add Leads to List on creation */</span>
+</span><span id="150" class="l">                <span class="php-keyword1">if</span>(!<span class="php-keyword1">empty</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_lists'</span>]) &amp;&amp; <span class="php-keyword2">is_array</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_lists'</span>])){
+</span><span id="151" class="l">                    <span class="php-var">$double_optin_lists</span> = <span class="php-keyword1">array</span>();
+</span><span id="152" class="l">                    <span class="php-var">$normal_lists</span> = <span class="php-keyword1">array</span>();
+</span><span id="153" class="l">
+</span><span id="154" class="l">                    <span class="php-comment">/*differentiate between double optin lists and lists that don't require double optin*/</span>
+</span><span id="155" class="l">                    <span class="php-keyword1">foreach</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_lists'</span>] <span class="php-keyword1">as</span> <span class="php-var">$list_id</span>){
+</span><span id="156" class="l">                        <span class="php-var">$list_meta_settings</span> = get_term_meta(<span class="php-var">$list_id</span>, <span class="php-quote">'wplead_lead_list_meta_settings'</span>, <span class="php-keyword1">true</span>);
+</span><span id="157" class="l">                        <span class="php-keyword1">if</span>(<span class="php-keyword1">isset</span>(<span class="php-var">$list_meta_settings</span>[<span class="php-quote">'double_optin'</span>]) &amp;&amp; <span class="php-var">$list_meta_settings</span>[<span class="php-quote">'double_optin'</span>] == <span class="php-quote">'1'</span>){
+</span><span id="158" class="l">                            <span class="php-var">$double_optin_lists</span>[] = <span class="php-var">$list_id</span>;
+</span><span id="159" class="l">                        }<span class="php-keyword1">else</span>{
+</span><span id="160" class="l">                            <span class="php-var">$normal_lists</span>[] = <span class="php-var">$list_id</span>;
+</span><span id="161" class="l">                        }
+</span><span id="162" class="l">                    }
+</span><span id="163" class="l">
+</span><span id="164" class="l">                    <span class="php-comment">/*remove any groups that the lead is already on from the double optin groups*/</span>
+</span><span id="165" class="l">                    <span class="php-keyword1">if</span>(<span class="php-keyword2">array_filter</span>(<span class="php-var">$double_optin_lists</span>)){
+</span><span id="166" class="l">                        <span class="php-var">$existing_lists</span> = wp_get_post_terms( <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'wplead_list_category'</span>);
+</span><span id="167" class="l">                        <span class="php-keyword1">foreach</span>(<span class="php-var">$existing_lists</span> <span class="php-keyword1">as</span> <span class="php-var">$existing_list</span>){
+</span><span id="168" class="l">                            <span class="php-keyword1">if</span>(<span class="php-keyword2">in_array</span>(<span class="php-var">$existing_list</span>-&gt;term_id, <span class="php-var">$double_optin_lists</span>)){
+</span><span id="169" class="l">                                <span class="php-var">$index</span> = <span class="php-keyword2">array_search</span>(<span class="php-var">$existing_list</span>-&gt;term_id, <span class="php-var">$double_optin_lists</span>);
+</span><span id="170" class="l">                                <span class="php-keyword1">unset</span>(<span class="php-var">$double_optin_lists</span>[<span class="php-var">$index</span>]);
+</span><span id="171" class="l">                            }
+</span><span id="172" class="l">                        }
+</span><span id="173" class="l">                    }
+</span><span id="174" class="l">
+</span><span id="175" class="l">                    <span class="php-keyword1">if</span>(<span class="php-keyword2">array_filter</span>(<span class="php-var">$double_optin_lists</span>)){
+</span><span id="176" class="l">                        <span class="php-comment">/*get the double optin waiting list id*/</span>
+</span><span id="177" class="l">                        <span class="php-keyword1">if</span>(!<span class="php-keyword2">defined</span>(<span class="php-quote">'INBOUND_PRO_CURRENT_VERSION'</span>)){
+</span><span id="178" class="l">                            <span class="php-var">$double_optin_list_id</span> = get_option(<span class="php-quote">'list-double-optin-list-id'</span>, <span class="php-quote">''</span>);
+</span><span id="179" class="l">                        }<span class="php-keyword1">else</span>{
+</span><span id="180" class="l">                            <span class="php-var">$settings</span> = Inbound_Options_API::get_option(<span class="php-quote">'inbound-pro'</span>, <span class="php-quote">'settings'</span>, <span class="php-keyword1">array</span>());
+</span><span id="181" class="l">                            <span class="php-var">$double_optin_list_id</span> = <span class="php-var">$settings</span>[<span class="php-quote">'leads'</span>][<span class="php-quote">'list-double-optin-list-id'</span>];
+</span><span id="182" class="l">                        }
+</span><span id="183" class="l">
+</span><span id="184" class="l">                        <span class="php-comment">/*if there is a list to store the leads in*/</span>
+</span><span id="185" class="l">                        <span class="php-keyword1">if</span>(<span class="php-var">$double_optin_list_id</span>){
+</span><span id="186" class="l">                            <span class="php-comment">/*store the list ids that need confirmation*/</span>
+</span><span id="187" class="l">                            update_post_meta(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'double_optin_lists'</span>, <span class="php-var">$double_optin_lists</span>);
+</span><span id="188" class="l">
+</span><span id="189" class="l">                            <span class="php-comment">/*change the lead status to waiting for double optin*/</span>
+</span><span id="190" class="l">                            update_post_meta( <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] , <span class="php-quote">'wp_lead_status'</span> , <span class="php-quote">'double-optin'</span>);
 </span><span id="191" class="l">
-</span><span id="192" class="l">                    <span class="php-comment">/*add the lead to all lists that don't require double optin*/</span>
-</span><span id="193" class="l">                    Inbound_Leads::add_lead_to_list(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-var">$normal_lists</span>);
-</span><span id="194" class="l">
-</span><span id="195" class="l">                    <span class="php-comment">/* store lead list cookie */</span>
-</span><span id="196" class="l">                    <span class="php-keyword1">if</span> (<span class="php-keyword2">class_exists</span>(<span class="php-quote">'Leads_Tracking'</span>)) {
-</span><span id="197" class="l">                        Leads_Tracking::cookie_lead_lists(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] , <span class="php-var">$normal_lists</span>);
-</span><span id="198" class="l">                    }
-</span><span id="199" class="l">                }
+</span><span id="192" class="l">                            <span class="php-comment">/*add the lead to the double optin confirmation list*/</span>
+</span><span id="193" class="l">                            Inbound_Leads::add_lead_to_list(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-var">$double_optin_list_id</span>);
+</span><span id="194" class="l">                            Inbound_List_Double_Optin::send_double_optin_confirmation(<span class="php-var">$lead</span>);
+</span><span id="195" class="l">                        }
+</span><span id="196" class="l">                    }
+</span><span id="197" class="l">
+</span><span id="198" class="l">                    <span class="php-comment">/*add the lead to all lists that don't require double optin*/</span>
+</span><span id="199" class="l">                    Inbound_Leads::add_lead_to_list(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>], <span class="php-var">$normal_lists</span>);
 </span><span id="200" class="l">
-</span><span id="201" class="l">                <span class="php-comment">/* Add Leads to List on creation */</span>
-</span><span id="202" class="l">                <span class="php-keyword1">if</span>(!<span class="php-keyword1">empty</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_tags'</span>]) &amp;&amp; <span class="php-keyword2">is_array</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_tags'</span>])){
-</span><span id="203" class="l">
-</span><span id="204" class="l">                    <span class="php-comment">/*add the lead to all lists that don't require double optin*/</span>
-</span><span id="205" class="l">                    <span class="php-keyword1">foreach</span> ( <span class="php-var">$lead</span>[<span class="php-quote">'lead_tags'</span>] <span class="php-keyword1">as</span> <span class="php-var">$tag_id</span> ) {
-</span><span id="206" class="l">                        Inbound_Leads::add_tag_to_lead( <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] , <span class="php-keyword2">intval</span>(<span class="php-var">$tag_id</span>) );
-</span><span id="207" class="l">                    }
-</span><span id="208" class="l">
-</span><span id="209" class="l">                    <span class="php-comment">/* store lead list cookie */</span>
-</span><span id="210" class="l">                    <span class="php-keyword1">if</span> (<span class="php-keyword2">class_exists</span>(<span class="php-quote">'Leads_Tracking'</span>)) {
-</span><span id="211" class="l">                        Leads_Tracking::cookie_lead_tags(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] , <span class="php-var">$lead</span>[<span class="php-quote">'lead_tags'</span>]);
-</span><span id="212" class="l">                    }
-</span><span id="213" class="l">                }
+</span><span id="201" class="l">                    <span class="php-comment">/* store lead list cookie */</span>
+</span><span id="202" class="l">                    <span class="php-keyword1">if</span> (<span class="php-keyword2">class_exists</span>(<span class="php-quote">'Leads_Tracking'</span>)) {
+</span><span id="203" class="l">                        Leads_Tracking::cookie_lead_lists(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] , <span class="php-var">$normal_lists</span>);
+</span><span id="204" class="l">                    }
+</span><span id="205" class="l">                }
+</span><span id="206" class="l">
+</span><span id="207" class="l">                <span class="php-comment">/* Add Leads to List on creation */</span>
+</span><span id="208" class="l">                <span class="php-keyword1">if</span>(!<span class="php-keyword1">empty</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_tags'</span>]) &amp;&amp; <span class="php-keyword2">is_array</span>(<span class="php-var">$lead</span>[<span class="php-quote">'lead_tags'</span>])){
+</span><span id="209" class="l">
+</span><span id="210" class="l">                    <span class="php-comment">/*add the lead to all lists that don't require double optin*/</span>
+</span><span id="211" class="l">                    <span class="php-keyword1">foreach</span> ( <span class="php-var">$lead</span>[<span class="php-quote">'lead_tags'</span>] <span class="php-keyword1">as</span> <span class="php-var">$tag_id</span> ) {
+</span><span id="212" class="l">                        Inbound_Leads::add_tag_to_lead( <span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] , <span class="php-keyword2">intval</span>(<span class="php-var">$tag_id</span>) );
+</span><span id="213" class="l">                    }
 </span><span id="214" class="l">
-</span><span id="215" class="l">
-</span><span id="216" class="l">                <span class="php-comment">/* Store page views for people with ajax tracking off */</span>
-</span><span id="217" class="l">                <span class="php-var">$ajax_tracking_off</span> = <span class="php-keyword1">false</span>; <span class="php-comment">/* get_option */</span>
-</span><span id="218" class="l">                <span class="php-keyword1">if</span>(<span class="php-var">$lead</span>[<span class="php-quote">'page_views'</span>] &amp;&amp; <span class="php-var">$ajax_tracking_off</span> ) {
-</span><span id="219" class="l">                    self::store_page_views(<span class="php-var">$lead</span>);
-</span><span id="220" class="l">                }
-</span><span id="221" class="l">
-</span><span id="222" class="l">                <span class="php-comment">/* Store Mapped Form Data */</span>
-</span><span id="223" class="l">                <span class="php-keyword1">if</span>(!<span class="php-keyword1">empty</span>(<span class="php-var">$mappedData</span>)){
-</span><span id="224" class="l">                    self::store_mapped_data(<span class="php-var">$lead</span>, <span class="php-var">$mappedData</span>);
+</span><span id="215" class="l">                    <span class="php-comment">/* store lead list cookie */</span>
+</span><span id="216" class="l">                    <span class="php-keyword1">if</span> (<span class="php-keyword2">class_exists</span>(<span class="php-quote">'Leads_Tracking'</span>)) {
+</span><span id="217" class="l">                        Leads_Tracking::cookie_lead_tags(<span class="php-var">$lead</span>[<span class="php-quote">'id'</span>] , <span class="php-var">$lead</span>[<span class="php-quote">'lead_tags'</span>]);
+</span><span id="218" class="l">                    }
+</span><span id="219" class="l">                }
+</span><span id="220" class="l">
+</span><span id="221" class="l">                <span class="php-comment">/* Store page views for people with ajax tracking off */</span>
+</span><span id="222" class="l">                <span class="php-var">$ajax_tracking_off</span> = <span class="php-keyword1">false</span>; <span class="php-comment">/* get_option */</span>
+</span><span id="223" class="l">                <span class="php-keyword1">if</span>(<span class="php-var">$lead</span>[<span class="php-quote">'page_views'</span>] &amp;&amp; <span class="php-var">$ajax_tracking_off</span> ) {
+</span><span id="224" class="l">                    self::store_page_views(<span class="php-var">$lead</span>);
 </span><span id="225" class="l">                }
 </span><span id="226" class="l">
 </span><span id="227" class="l">                <span class="php-comment">/* Store past search history */</span>
@@ -1602,7 +1603,7 @@
 </span><span id="667" class="l">
 </span><span id="668" class="l">            <span class="php-keyword1">foreach</span> (<span class="php-var">$fields</span> <span class="php-keyword1">as</span> <span class="php-var">$key</span> =&gt; <span class="php-var">$label</span> ) {
 </span><span id="669" class="l">                <span class="php-keyword1">if</span>( <span class="php-keyword1">isset</span>( <span class="php-var">$args</span>[ <span class="php-var">$key</span> ]) &amp;&amp; !<span class="php-keyword1">isset</span>(<span class="php-var">$mappedData</span>[<span class="php-var">$key</span>]) ) {
-</span><span id="670" class="l">                    <span class="php-var">$mappedData</span>[<span class="php-var">$key</span>] =  <span class="php-var">$args</span>[ <span class="php-var">$key</span> ];
+</span><span id="670" class="l">                    <span class="php-var">$mappedData</span>[<span class="php-var">$key</span>] =  sanitize_text_field(<span class="php-var">$args</span>[ <span class="php-var">$key</span> ]);
 </span><span id="671" class="l">                }
 </span><span id="672" class="l">            }
 </span><span id="673" class="l">
@@ -1700,7 +1701,7 @@
 </span><span id="765" class="l">        <span class="php-var">$args</span> = <span class="php-keyword2">array_merge</span>( <span class="php-var">$args</span>, <span class="php-var">$_POST</span> );
 </span><span id="766" class="l">
 </span><span id="767" class="l">        <span class="php-comment">/* wpleads_email_address becomes wpleads_email */</span>
-</span><span id="768" class="l">        <span class="php-var">$args</span>[<span class="php-quote">'email'</span>] = <span class="php-var">$args</span>[<span class="php-quote">'wpleads_email_address'</span>];
+</span><span id="768" class="l">        <span class="php-var">$args</span>[<span class="php-quote">'email'</span>] = sanitize_text_field(<span class="php-var">$args</span>[<span class="php-quote">'wpleads_email_address'</span>]);
 </span><span id="769" class="l">
 </span><span id="770" class="l">        <span class="php-comment">/* Send data through new method */</span>
 </span><span id="771" class="l">        <span class="php-var">$Leads</span> = <span class="php-keyword1">new</span> LeadStorage();
@@ -1768,6 +1769,6 @@
 </div>
 </div>
 <script src="resources/combined.js?fa4df769e93505d23ea382fef9a6efc025e831a9"></script>
-<script src="elementlist.js?3f015fad786cfa09d5578db358aff553b5e42f4d"></script>
+<script src="elementlist.js?2d1d3a0b2d10eb3ba3f41a334b89ceefc5b096be"></script>
 </body>
 </html>

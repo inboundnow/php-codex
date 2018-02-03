@@ -629,6 +629,7 @@
 				<li><a href="class-Inbound_Automation_Action_Add_Remove_List.html">Inbound_Automation_Action_Add_Remove_List</a></li>
 				<li><a href="class-Inbound_Automation_Action_Add_Remove_Tag.html">Inbound_Automation_Action_Add_Remove_Tag</a></li>
 				<li><a href="class-Inbound_Automation_Action_Create_Lead.html">Inbound_Automation_Action_Create_Lead</a></li>
+				<li><a href="class-Inbound_Automation_Action_Create_User.html">Inbound_Automation_Action_Create_User</a></li>
 				<li><a href="class-Inbound_Automation_Action_Kill_Tasks.html">Inbound_Automation_Action_Kill_Tasks</a></li>
 				<li><a href="class-Inbound_Automation_Action_Relay_Data.html">Inbound_Automation_Action_Relay_Data</a></li>
 				<li><a href="class-Inbound_Automation_Action_Send_Email.html">Inbound_Automation_Action_Send_Email</a></li>
@@ -1331,7 +1332,7 @@
 </span><span id="396" class="l">            <span class="xlang">&lt;?php</span>
 </span><span id="397" class="l">            <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_GET</span>[<span class="php-quote">'wplead_list_category'</span>])){
 </span><span id="398" class="l">                <span class="php-keyword1">foreach</span>(<span class="php-var">$_GET</span>[<span class="php-quote">'wplead_list_category'</span>] <span class="php-keyword1">as</span> <span class="php-var">$list_id</span>) {
-</span><span id="399" class="l">                    <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;input type=&quot;hidden&quot; name=&quot;wplead_list_category[]&quot; value=&quot;'</span>.<span class="php-var">$list_id</span>.<span class="php-quote">'&quot;/&gt;'</span>;
+</span><span id="399" class="l">                    <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;input type=&quot;hidden&quot; name=&quot;wplead_list_category[]&quot; value=&quot;'</span>. (int) <span class="php-var">$list_id</span>.<span class="php-quote">'&quot;/&gt;'</span>;
 </span><span id="400" class="l">                }
 </span><span id="401" class="l">            }
 </span><span id="402" class="l">            <span class="xlang">?&gt;</span>
@@ -1379,7 +1380,7 @@
 </span><span id="444" class="l">
 </span><span id="445" class="l">                        <span class="php-comment">/* show email */</span>
 </span><span id="446" class="l">                        <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;td&gt;'</span>;
-</span><span id="447" class="l">                        <span class="php-keyword1">echo</span> <span class="php-quote">'  &lt;span class=&quot;lead-email&quot;&gt;'</span> . <span class="php-var">$post</span>-&gt;post_title . <span class="php-quote">'&lt;/span&gt;'</span>;
+</span><span id="447" class="l">                        <span class="php-keyword1">echo</span> <span class="php-quote">'  &lt;span class=&quot;lead-email&quot;&gt;'</span> . sanitize_text_field(<span class="php-var">$post</span>-&gt;post_title) . <span class="php-quote">'&lt;/span&gt;'</span>;
 </span><span id="448" class="l">                        <span class="php-keyword1">echo</span> <span class="php-quote">'&lt;/td&gt;'</span>;
 </span><span id="449" class="l">
 </span><span id="450" class="l">                        <span class="php-comment">/* show lists */</span>
@@ -2061,6 +2062,6 @@
 </div>
 </div>
 <script src="resources/combined.js?fa4df769e93505d23ea382fef9a6efc025e831a9"></script>
-<script src="elementlist.js?3f015fad786cfa09d5578db358aff553b5e42f4d"></script>
+<script src="elementlist.js?2d1d3a0b2d10eb3ba3f41a334b89ceefc5b096be"></script>
 </body>
 </html>
