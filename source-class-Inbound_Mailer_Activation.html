@@ -1092,14 +1092,14 @@
 </span><span id="156" class="l">        <span class="php-var">$charset_collate</span> = <span class="php-var">$wpdb</span>-&gt;get_charset_collate();
 </span><span id="157" class="l">
 </span><span id="158" class="l">        <span class="php-var">$sql</span> = <span class="php-quote">&quot;CREATE TABLE </span><span class="php-var">$table_name</span><span class="php-quote"> (
-</span></span><span id="159" class="l"><span class="php-quote">            `id` mediumint(9) NOT NULL AUTO_INCREMENT,
-</span></span><span id="160" class="l"><span class="php-quote">            `email_id` mediumint(9) NOT NULL,
+</span></span><span id="159" class="l"><span class="php-quote">            `id` bigint(20) NOT NULL AUTO_INCREMENT,
+</span></span><span id="160" class="l"><span class="php-quote">            `email_id` bigint(9) NOT NULL,
 </span></span><span id="161" class="l"><span class="php-quote">            `variation_id` mediumint(9) NOT NULL,
-</span></span><span id="162" class="l"><span class="php-quote">            `lead_id` mediumint(9) NOT NULL,
-</span></span><span id="163" class="l"><span class="php-quote">            `post_id` mediumint(9) NOT NULL,
+</span></span><span id="162" class="l"><span class="php-quote">            `lead_id` bigint(9) NOT NULL,
+</span></span><span id="163" class="l"><span class="php-quote">            `post_id` bigint(9) NOT NULL,
 </span></span><span id="164" class="l"><span class="php-quote">            `list_ids` text NOT NULL,
-</span></span><span id="165" class="l"><span class="php-quote">            `job_id` mediumint(9) NOT NULL,
-</span></span><span id="166" class="l"><span class="php-quote">            `rule_id` mediumint(9) NOT NULL,
+</span></span><span id="165" class="l"><span class="php-quote">            `job_id` bigint(9) NOT NULL,
+</span></span><span id="166" class="l"><span class="php-quote">            `rule_id` bigint(9) NOT NULL,
 </span></span><span id="167" class="l"><span class="php-quote">            `token` tinytext NOT NULL,
 </span></span><span id="168" class="l"><span class="php-quote">            `type` tinytext NOT NULL,
 </span></span><span id="169" class="l"><span class="php-quote">            `tokens` mediumtext NOT NULL,
