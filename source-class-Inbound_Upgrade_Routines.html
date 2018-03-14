@@ -1254,7 +1254,7 @@
 </span><span id="317" class="l">            <span class="php-keyword1">require_once</span>( ABSPATH . <span class="php-quote">'wp-admin/includes/upgrade.php'</span> );
 </span><span id="318" class="l">            <span class="php-var">$table_name</span> = <span class="php-var">$wpdb</span>-&gt;prefix . <span class="php-quote">&quot;inbound_events&quot;</span>;
 </span><span id="319" class="l">
-</span><span id="320" class="l">            <span class="php-var">$wpdb</span>-&gt;get_results( <span class="php-quote">&quot;ALTER TABLE </span><span class="php-var">{$table_name}</span><span class="php-quote"> MODIFY COLUMN `id` BIGINT(20)
+</span><span id="320" class="l">            <span class="php-var">$wpdb</span>-&gt;get_results( <span class="php-quote">&quot;ALTER TABLE </span><span class="php-var">{$table_name}</span><span class="php-quote"> MODIFY COLUMN `id` BIGINT(20),
 </span></span><span id="321" class="l"><span class="php-quote">                                MODIFY COLUMN `lead_id` BIGINT(20),
 </span></span><span id="322" class="l"><span class="php-quote">                                MODIFY COLUMN `form_id` BIGINT(20),
 </span></span><span id="323" class="l"><span class="php-quote">                                MODIFY COLUMN `cta_id` BIGINT(20),

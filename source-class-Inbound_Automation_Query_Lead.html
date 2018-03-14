@@ -989,9 +989,9 @@
 </span><span id="52" class="l">                <span class="php-keyword1">return</span> <span class="php-keyword1">null</span>;
 </span><span id="53" class="l">            }
 </span><span id="54" class="l">
-</span><span id="55" class="l">            <span class="php-var">$results</span> = Inbound_Events::get_page_views_by(<span class="php-quote">'lead_id'</span> , <span class="php-keyword1">array</span>(<span class="php-quote">'lead_id'</span>=&gt;<span class="php-var">$lead_id</span>) );
+</span><span id="55" class="l">            <span class="php-var">$results</span> = Inbound_Events::get_page_views_count_by(<span class="php-quote">'lead_id'</span> , <span class="php-keyword1">array</span>(<span class="php-quote">'lead_id'</span>=&gt;<span class="php-var">$lead_id</span>) );
 </span><span id="56" class="l">
-</span><span id="57" class="l">            <span class="php-keyword1">return</span> <span class="php-keyword2">count</span>(<span class="php-var">$results</span>);
+</span><span id="57" class="l">            <span class="php-keyword1">return</span> <span class="php-var">$results</span>;
 </span><span id="58" class="l">        }
 </span><span id="59" class="l">
 </span><span id="60" class="l">        <span class="php-comment">/**

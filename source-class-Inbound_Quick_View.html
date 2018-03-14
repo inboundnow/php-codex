@@ -1395,9 +1395,9 @@
 </span><span id="458" class="l">                <span class="php-var">$args</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$wordpress_date_time</span>;
 </span><span id="459" class="l">            }
 </span><span id="460" class="l">
-</span><span id="461" class="l">            <span class="php-var">$result</span> = Inbound_Events::get_page_views_by(<span class="php-quote">'page_id'</span> , <span class="php-var">$args</span> );
+</span><span id="461" class="l">            <span class="php-var">$result</span> = Inbound_Events::get_page_views_count_by(<span class="php-quote">'page_id'</span> , <span class="php-var">$args</span> );
 </span><span id="462" class="l">
-</span><span id="463" class="l">            <span class="php-keyword1">return</span> <span class="php-keyword2">count</span>(<span class="php-var">$result</span>);
+</span><span id="463" class="l">            <span class="php-keyword1">return</span> <span class="php-var">$result</span>;
 </span><span id="464" class="l">        }
 </span><span id="465" class="l">
 </span><span id="466" class="l">        <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> get_visitors(<span class="php-var">$args</span>) {

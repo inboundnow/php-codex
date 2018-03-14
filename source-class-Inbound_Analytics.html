@@ -1218,10 +1218,10 @@
 </span><span id="281" class="l">                    <span class="php-quote">'start_date'</span> =&gt; self::<span class="php-var">$dates</span>[<span class="php-quote">'start_date'</span>],
 </span><span id="282" class="l">                    <span class="php-quote">'end_date'</span> =&gt; self::<span class="php-var">$dates</span>[<span class="php-quote">'end_date'</span>]
 </span><span id="283" class="l">                );
-</span><span id="284" class="l">                <span class="php-var">$results</span> = Inbound_Events::get_page_views_by(<span class="php-quote">'page_id'</span>, <span class="php-var">$params</span>);
+</span><span id="284" class="l">                <span class="php-var">$results</span> = Inbound_Events::get_page_views_count_by(<span class="php-quote">'page_id'</span>, <span class="php-var">$params</span>);
 </span><span id="285" class="l">                <span class="xlang">?&gt;</span>
 </span><span id="286" class="l">                &lt;a href=<span class="php-quote">'&lt;?php echo admin_url('</span>index.php?action=inbound_generate_report&amp;page_id=<span class="php-quote">' . $post-&gt;ID . '</span>&amp;<span class="php-keyword1">class</span>=Inbound_Impressions_Report&amp;<span class="php-keyword2">range</span>=<span class="php-quote">' . self::$range . '</span>&amp;tb_hide_nav=<span class="php-keyword1">true</span>&amp;TB_iframe=<span class="php-keyword1">true</span>&amp;width=<span class="php-num">1000</span>&amp;height=<span class="php-num">600</span><span class="php-quote">'); ?&gt;'</span> <span class="php-keyword1">class</span>=<span class="php-quote">'thickbox inbound-thickbox'</span> title=<span class="php-quote">&quot;&lt;?php echo sprintf(__('past %s days', 'inbound-pro'), self::</span><span class="php-var">$range</span><span class="php-quote">); ?&gt;&quot;</span>&gt;
-</span><span id="287" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-keyword1">echo</span> <span class="php-keyword2">count</span>(<span class="php-var">$results</span>); <span class="xlang">?&gt;</span>
+</span><span id="287" class="l">                    <span class="xlang">&lt;?php</span> <span class="php-var">$results</span>; <span class="xlang">?&gt;</span>
 </span><span id="288" class="l">                &lt;/a&gt;
 </span><span id="289" class="l">                <span class="xlang">&lt;?php</span>
 </span><span id="290" class="l">                <span class="php-keyword1">break</span>;
