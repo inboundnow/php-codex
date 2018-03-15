@@ -1783,7 +1783,7 @@
 </span><span id="846" class="l">
 </span><span id="847" class="l">        <span class="php-var">$query</span> .= <span class="php-quote">' ORDER BY `datetime` DESC'</span>;
 </span><span id="848" class="l">        <span class="php-comment">//print_r($query);exit;</span>
-</span><span id="849" class="l">        <span class="php-var">$results</span> = <span class="php-var">$wpdb</span>-&gt;get_results( <span class="php-var">$query</span> , ARRAY_A );
+</span><span id="849" class="l">        <span class="php-var">$results</span> = <span class="php-var">$wpdb</span>-&gt;get_var( <span class="php-var">$query</span> , ARRAY_A );
 </span><span id="850" class="l">
 </span><span id="851" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$results</span>;
 </span><span id="852" class="l">    }
@@ -1840,7 +1840,7 @@
 </span><span id="903" class="l">
 </span><span id="904" class="l">        <span class="php-var">$query</span> .= <span class="php-quote">'GROUP BY DATE(datetime)'</span>;
 </span><span id="905" class="l">
-</span><span id="906" class="l">        <span class="php-var">$results</span> = <span class="php-var">$wpdb</span>-&gt;get_var( <span class="php-var">$query</span>);
+</span><span id="906" class="l">        <span class="php-var">$results</span> = <span class="php-var">$wpdb</span>-&gt;get_results( <span class="php-var">$query</span>);
 </span><span id="907" class="l">
 </span><span id="908" class="l">        <span class="php-keyword1">return</span> <span class="php-var">$results</span>;
 </span><span id="909" class="l">    }
