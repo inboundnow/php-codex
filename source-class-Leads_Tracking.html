@@ -1019,9 +1019,9 @@
 </span><span id="82" class="l">            }
 </span><span id="83" class="l">        }
 </span><span id="84" class="l">
-</span><span id="85" class="l">        <span class="php-var">$lead_lists</span> = <span class="php-keyword2">json_encode</span>(<span class="php-keyword1">array</span>(<span class="php-quote">'ids'</span> =&gt; <span class="php-var">$lists</span>));;
+</span><span id="85" class="l">        <span class="php-var">$lead_lists</span> = <span class="php-keyword2">json_encode</span>(<span class="php-keyword1">array</span>(<span class="php-quote">'ids'</span> =&gt; <span class="php-var">$lists</span>));
 </span><span id="86" class="l">
-</span><span id="87" class="l">        <span class="php-keyword2">setcookie</span>(<span class="php-quote">'wp_lead_list'</span>, <span class="php-var">$lead_lists</span>, <span class="php-keyword2">time</span>() + (<span class="php-num">20</span> * <span class="php-num">365</span> * <span class="php-num">24</span> * <span class="php-num">60</span> * <span class="php-num">60</span>), <span class="php-quote">'/'</span>);
+</span><span id="87" class="l">        <span class="php-keyword2">setcookie</span>(<span class="php-quote">'wp_lead_list'</span>, <span class="php-var">$lead_lists</span>, (int) (<span class="php-keyword2">time</span>() + (<span class="php-num">20</span> * <span class="php-num">365</span> * <span class="php-num">24</span> * <span class="php-num">60</span> * <span class="php-num">60</span>) ), <span class="php-quote">'/'</span>);
 </span><span id="88" class="l">
 </span><span id="89" class="l">    }
 </span><span id="90" class="l">
