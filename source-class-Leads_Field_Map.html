@@ -1318,22 +1318,22 @@
 </span><span id="381" class="l">
 </span><span id="382" class="l">        <span class="php-comment">/* check to see if lead id is set as a REQUEST */</span>
 </span><span id="383" class="l">        <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>]) &amp;&amp; <span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>]) {
-</span><span id="384" class="l">            <span class="php-var">$lead_id</span> = <span class="php-keyword2">intval</span>(<span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>]);
+</span><span id="384" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>] = <span class="php-keyword2">intval</span>(<span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>]);
 </span><span id="385" class="l">        } <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'lead_id'</span>])) {
-</span><span id="386" class="l">            <span class="php-var">$lead_id</span> = <span class="php-keyword2">intval</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'lead_id'</span>]);
+</span><span id="386" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>] = <span class="php-keyword2">intval</span>(<span class="php-var">$_REQUEST</span>[<span class="php-quote">'lead_id'</span>]);
 </span><span id="387" class="l">        } <span class="php-keyword1">else</span> <span class="php-keyword1">if</span> (<span class="php-keyword1">isset</span>(<span class="php-var">$_COOKIE</span>[<span class="php-quote">'wp_lead_id'</span>])) {
-</span><span id="388" class="l">            <span class="php-var">$lead_id</span> = <span class="php-keyword2">intval</span>(<span class="php-var">$_COOKIE</span>[<span class="php-quote">'wp_lead_id'</span>]);
+</span><span id="388" class="l">            <span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>] = <span class="php-keyword2">intval</span>(<span class="php-var">$_COOKIE</span>[<span class="php-quote">'wp_lead_id'</span>]);
 </span><span id="389" class="l">        }
 </span><span id="390" class="l">
 </span><span id="391" class="l">        <span class="php-comment">/* return default if no lead id discovered */</span>
-</span><span id="392" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$lead_id</span>) {
+</span><span id="392" class="l">        <span class="php-keyword1">if</span> (!<span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>]) {
 </span><span id="393" class="l">            <span class="php-keyword1">return</span> <span class="php-var">$params</span>[<span class="php-quote">'default'</span>];
 </span><span id="394" class="l">        }
 </span><span id="395" class="l">
-</span><span id="396" class="l">        <span class="php-var">$params</span>[<span class="php-quote">'key'</span>] = (<span class="php-keyword1">isset</span>(<span class="php-var">$params</span>[<span class="php-quote">'key'</span>])) ? <span class="php-var">$params</span>[<span class="php-quote">'key'</span>]: <span class="php-var">$params</span>[<span class="php-quote">'id'</span>] ;
+</span><span id="396" class="l">        <span class="php-var">$params</span>[<span class="php-quote">'key'</span>] = (<span class="php-keyword1">isset</span>(<span class="php-var">$params</span>[<span class="php-quote">'key'</span>]) &amp;&amp; <span class="php-var">$params</span>[<span class="php-quote">'key'</span>]) ? <span class="php-var">$params</span>[<span class="php-quote">'key'</span>]: <span class="php-var">$params</span>[<span class="php-quote">'id'</span>] ;
 </span><span id="397" class="l">
 </span><span id="398" class="l">        <span class="php-comment">/* get lead value */</span>
-</span><span id="399" class="l">        <span class="php-var">$value</span> = Leads_Field_Map::get_field(<span class="php-var">$lead_id</span>, <span class="php-var">$params</span>[<span class="php-quote">'key'</span>]);
+</span><span id="399" class="l">        <span class="php-var">$value</span> = Leads_Field_Map::get_field(<span class="php-var">$params</span>[<span class="php-quote">'lead_id'</span>], <span class="php-var">$params</span>[<span class="php-quote">'key'</span>]);
 </span><span id="400" class="l">
 </span><span id="401" class="l">        <span class="php-comment">/* return lead field value if it exists */</span>
 </span><span id="402" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$value</span>) {
