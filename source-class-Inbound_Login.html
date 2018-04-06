@@ -982,7 +982,7 @@
 </span><span id="45" class="l">                        <span class="php-keyword2">setcookie</span>( <span class="php-quote">'wp_lead_uid'</span> , <span class="php-var">$uid</span> , <span class="php-keyword2">time</span>() + (<span class="php-num">20</span> * <span class="php-num">365</span> * <span class="php-num">24</span> * <span class="php-num">60</span> * <span class="php-num">60</span>),<span class="php-quote">'/'</span>);
 </span><span id="46" class="l">                    }
 </span><span id="47" class="l">
-</span><span id="48" class="l">                    <span class="php-keyword2">setcookie</span>( <span class="php-quote">'wp_lead_id'</span> , <span class="php-var">$results</span>-&gt;post-&gt;ID , <span class="php-keyword2">time</span>() + (<span class="php-num">20</span> * <span class="php-num">365</span> * <span class="php-num">24</span> * <span class="php-num">60</span> * <span class="php-num">60</span>),<span class="php-quote">'/'</span>);
+</span><span id="48" class="l">                    <span class="php-keyword2">setcookie</span>( <span class="php-quote">'wp_lead_id'</span> , <span class="php-var">$results</span>-&gt;post-&gt;ID , (int) (<span class="php-keyword2">time</span>() + (<span class="php-num">20</span> * <span class="php-num">365</span> * <span class="php-num">24</span> * <span class="php-num">60</span> * <span class="php-num">60</span>)),<span class="php-quote">'/'</span>);
 </span><span id="49" class="l">
 </span><span id="50" class="l">                    <span class="php-comment">/* load lead lists into cookies */</span>
 </span><span id="51" class="l">                    <span class="php-keyword1">if</span> (<span class="php-keyword2">class_exists</span>(<span class="php-quote">'Leads_Tracking'</span>)) {
@@ -995,7 +995,7 @@
 </span><span id="58" class="l">
 </span><span id="59" class="l">    }
 </span><span id="60" class="l">
-</span><span id="61" class="l">    <span class="php-var">$GLOBALS</span>[<span class="php-quote">'Inbound_Login'</span>] = <span class="php-keyword1">new</span> Inbound_Login;
+</span><span id="61" class="l">    <span class="php-keyword1">new</span> Inbound_Login;
 </span><span id="62" class="l">}</span></code></pre>
 
 	<div id="footer">
