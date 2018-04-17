@@ -1067,7 +1067,7 @@
 </span><span id="130" class="l">
 </span><span id="131" class="l">        <span class="php-comment">/* for click event tracking */</span>
 </span><span id="132" class="l">        self::<span class="php-var">$tracking_endpoint</span> = apply_filters(<span class="php-quote">'inbound_event_endpoint'</span>, self::<span class="php-var">$tracking_endpoint</span>);
-</span><span id="133" class="l">        add_rewrite_endpoint(<span class="php-quote">'inbound'</span>, EP_ALL);
+</span><span id="133" class="l">        add_rewrite_endpoint(self::<span class="php-var">$tracking_endpoint</span>, EP_ALL);
 </span><span id="134" class="l">    }
 </span><span id="135" class="l">
 </span><span id="136" class="l">    <span class="php-comment">/**

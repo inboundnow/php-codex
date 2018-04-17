@@ -952,10 +952,10 @@
 </span><span id="15" class="l">    }
 </span><span id="16" class="l">
 </span><span id="17" class="l">    <span class="php-keyword1">public</span> <span class="php-keyword1">static</span> <span class="php-keyword1">function</span> load_hooks() {
-</span><span id="18" class="l">
-</span><span id="19" class="l">        <span class="php-comment">/* Add shortcode handler */</span>
-</span><span id="20" class="l">        add_shortcode(<span class="php-quote">'lead-field'</span>, <span class="php-keyword1">array</span>(__CLASS__, <span class="php-quote">'process_lead_field_shortcode'</span>));
-</span><span id="21" class="l">
+</span><span id="18" class="l">        <span class="php-comment">/* Add shortcode handler */</span>
+</span><span id="19" class="l">        <span class="php-keyword1">if</span> (!<span class="php-keyword1">isset</span>(<span class="php-var">$_GET</span>[<span class="php-quote">'disable_shortcodes'</span>])) {
+</span><span id="20" class="l">            add_shortcode(<span class="php-quote">'lead-field'</span>, <span class="php-keyword1">array</span>(__CLASS__, <span class="php-quote">'process_lead_field_shortcode'</span>));
+</span><span id="21" class="l">        }
 </span><span id="22" class="l">    }
 </span><span id="23" class="l">
 </span><span id="24" class="l">    <span class="php-comment">/**
