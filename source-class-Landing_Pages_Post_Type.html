@@ -205,11 +205,6 @@
 
 						</li>
 				<li>
-					<a href="package-InboundPro.InboundAnalytics.html">
-						InboundAnalytics					</a>
-
-						</li>
-				<li>
 					<a href="package-InboundPro.InboundNowAPI.html">
 						InboundNowAPI					</a>
 
@@ -1272,11 +1267,11 @@
 </span><span id="335" class="l">        <span class="php-var">$conversions</span> = <span class="php-num">0</span>;
 </span><span id="336" class="l">
 </span><span id="337" class="l">        <span class="php-keyword1">foreach</span> (<span class="php-var">$variations</span> <span class="php-keyword1">as</span> <span class="php-var">$vid</span>) {
-</span><span id="338" class="l">            <span class="php-var">$each_impression</span> = get_post_meta(<span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'lp-ab-variation-impressions-'</span> . <span class="php-var">$vid</span>, <span class="php-keyword1">true</span>);
-</span><span id="339" class="l">            <span class="php-var">$each_conversion</span> = get_post_meta(<span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'lp-ab-variation-conversions-'</span> . <span class="php-var">$vid</span>, <span class="php-keyword1">true</span>);
+</span><span id="338" class="l">            <span class="php-var">$each_impression</span> = (int) get_post_meta(<span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'lp-ab-variation-impressions-'</span> . <span class="php-var">$vid</span>, <span class="php-keyword1">true</span>);
+</span><span id="339" class="l">            <span class="php-var">$each_conversion</span> = (int) get_post_meta(<span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'lp-ab-variation-conversions-'</span> . <span class="php-var">$vid</span>, <span class="php-keyword1">true</span>);
 </span><span id="340" class="l">            ((<span class="php-var">$each_conversion</span> === <span class="php-quote">&quot;&quot;</span>)) ? <span class="php-var">$final_conversion</span> = <span class="php-num">0</span> : <span class="php-var">$final_conversion</span> = <span class="php-var">$each_conversion</span>;
-</span><span id="341" class="l">            <span class="php-var">$impressions</span> += get_post_meta(<span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'lp-ab-variation-impressions-'</span> . <span class="php-var">$vid</span>, <span class="php-keyword1">true</span>);
-</span><span id="342" class="l">            <span class="php-var">$conversions</span> += get_post_meta(<span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'lp-ab-variation-conversions-'</span> . <span class="php-var">$vid</span>, <span class="php-keyword1">true</span>);
+</span><span id="341" class="l">            <span class="php-var">$impressions</span> += (int) get_post_meta(<span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'lp-ab-variation-impressions-'</span> . <span class="php-var">$vid</span>, <span class="php-keyword1">true</span>);
+</span><span id="342" class="l">            <span class="php-var">$conversions</span> += (int) get_post_meta(<span class="php-var">$post</span>-&gt;ID, <span class="php-quote">'lp-ab-variation-conversions-'</span> . <span class="php-var">$vid</span>, <span class="php-keyword1">true</span>);
 </span><span id="343" class="l">        }
 </span><span id="344" class="l">
 </span><span id="345" class="l">        <span class="php-keyword1">if</span> (<span class="php-var">$type_of_stat</span> === <span class="php-quote">&quot;actions&quot;</span>) {

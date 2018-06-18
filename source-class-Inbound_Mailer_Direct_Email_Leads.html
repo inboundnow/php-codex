@@ -205,11 +205,6 @@
 
 						</li>
 				<li>
-					<a href="package-InboundPro.InboundAnalytics.html">
-						InboundAnalytics					</a>
-
-						</li>
-				<li>
 					<a href="package-InboundPro.InboundNowAPI.html">
 						InboundNowAPI					</a>
 
@@ -1550,7 +1545,7 @@
 </span><span id="613" class="l">            <span class="php-keyword1">die</span>();
 </span><span id="614" class="l">        }
 </span><span id="615" class="l">
-</span><span id="616" class="l">        <span class="php-keyword1">if</span> (!is_email(<span class="php-var">$data</span>[<span class="php-quote">'reply_email'</span>][<span class="php-quote">'value'</span>])) {
+</span><span id="616" class="l">        <span class="php-keyword1">if</span> (!is_email(<span class="php-var">$data</span>[<span class="php-quote">'reply_email'</span>][<span class="php-quote">'value'</span>]) &amp;&amp; !<span class="php-keyword2">strstr</span>(<span class="php-var">$data</span>[<span class="php-quote">'reply_email'</span>][<span class="php-quote">'value'</span>] , <span class="php-quote">'['</span>) &amp;&amp; !<span class="php-keyword2">strstr</span>(<span class="php-var">$data</span>[<span class="php-quote">'reply_email'</span>][<span class="php-quote">'value'</span>] ,<span class="php-quote">'%'</span>) ) {
 </span><span id="617" class="l">            <span class="php-keyword1">echo</span> <span class="php-keyword2">json_encode</span>(<span class="php-keyword1">array</span>(<span class="php-quote">'basic_error'</span> =&gt; __(<span class="php-quote">'There\'s an error with the Reply Email'</span>, <span class="php-quote">'inbound-pro'</span>), <span class="php-quote">'title'</span> =&gt; __(<span class="php-quote">'Field Error:'</span>, <span class="php-quote">'inbound-pro'</span>)));
 </span><span id="618" class="l">            <span class="php-keyword1">die</span>();
 </span><span id="619" class="l">        }
